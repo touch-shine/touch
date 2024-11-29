@@ -16,7 +16,7 @@ const ContactForm = () => {
         <form className="space-y-4">
           <div className="md:flex md:space-x-4">
             <div className="flex-1">
-              <label className="block font-semibold mb-1">Name</label>
+              <label className="block font-semibold mb-1 text-black">Name</label>
               <input
                 type="text"
                 placeholder="Enter your first and last name"
@@ -24,38 +24,38 @@ const ContactForm = () => {
               />
             </div>
             <div className="flex-1">
-              <label className="block font-semibold mb-1">Mobile Number</label>
+              <label className="block font-semibold mb-1 text-black">Mobile Number</label>
               <input
                 type="tel"
                 placeholder="Enter your mobile number"
-                className="w-full border border-purple-300 p-2 rounded-md outline-none focus:border-[#2A82AD]"
+                className=" text-black w-full border border-purple-300 p-2 rounded-md outline-none focus:border-[#2A82AD]"
               />
             </div>
           </div>
 
           <div>
-            <label className="block font-semibold mb-1">Email</label>
+            <label className="block font-semibold mb-1 text-black">Email</label>
             <input
               type="email"
               placeholder="Enter your email address"
-              className="w-full border border-purple-300 p-2 rounded-md outline-none focus:border-[#2A82AD]"
+              className=" text-black w-full border border-purple-300 p-2 rounded-md outline-none focus:border-[#2A82AD]"
             />
           </div>
 
           <div>
-            <label className="block font-semibold mb-1">Vehicle</label>
+            <label className="block font-semibold mb-1 text-black">Vehicle</label>
             <input
               type="text"
               placeholder="Enter your vehicle brand and model"
-              className="w-full border border-purple-300 p-2 rounded-md outline-none focus:border-[#2A82AD]"
+              className=" text-black w-full border border-purple-300 p-2 rounded-md outline-none focus:border-[#2A82AD]"
             />
           </div>
 
           <div>
-            <label className="block font-semibold mb-1">
+            <label className="block font-semibold mb-1 text-black">
               What services are you interested in?
             </label>
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-4 text-black">
               <label className="flex items-center">
                 <input type="checkbox" className="mr-2 text-[#2A82AD]" />
                 Ceramic Coating
@@ -72,7 +72,7 @@ const ContactForm = () => {
           </div>
 
           <div>
-            <label className="block font-semibold mb-1">
+            <label className="block font-semibold mb-1 text-black">
               Additional Information
             </label>
             <textarea
@@ -92,7 +92,7 @@ const ContactForm = () => {
 
       {/* Map and Info Section */}
       <div className="md:w-1/2 mt-12 md:mt-0">
-        <h2 className="text-xl font-bold mb-4">
+        <h2 className="text-xl font-bold mb-4 text-black">
           What Happens After You Click Send
         </h2>
         <p className="text-gray-700 mb-4">
@@ -101,7 +101,7 @@ const ContactForm = () => {
           here to offer free guidance, helping you make the most informed
           decision.
         </p>
-        <p className="font-semibold">Monday - Saturday: 9:00am - 5:00pm</p>
+        <p className="font-semibold text-black">Monday - Saturday: 9:00am - 5:00pm</p>
 
         <div className="mt-6">
           {/* Embedded Google Map */}
