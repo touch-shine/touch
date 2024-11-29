@@ -43,7 +43,7 @@ const HorizontalGallery = () => {
       <div className="max-w-6xl mx-auto">
         {/* Section Title */}
         <h4 className="text-sm font-semibold text-[#2A82AD] uppercase mb-2">Portfolio</h4>
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">One Word: Shine</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-black">One Word: Shine</h2>
         
         {/* View Portfolio Button */}
         <a href='/gallery'>
