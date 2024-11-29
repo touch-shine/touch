@@ -3,7 +3,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto p-8 md:p-16 pb-32 relative">
+    <div className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto p-8 md:p-16 pb-32 relative bg-white">
       {/* Image Section */}
       <div className="relative w-full md:w-1/2 flex justify-center md:justify-start mb-8 md:mb-0">
         {/* Decorative Circles */}
@@ -39,7 +39,7 @@ const AboutUs = () => {
         <h4 className="text-sm font-semibold text-[#2A82AD] uppercase mb-2">
           MEET THE OWNER
         </h4>
-        <h2 className="text-1xl md:text-2xl font-bold text-gray-900 mb-4">
+        <h2 className="text-1xl md:text-2xl font-bold text-gray-900  mb-4">
           GABRIEL'S STORY
         </h2>
         <p className="text-gray-600 leading-relaxed mb-4">

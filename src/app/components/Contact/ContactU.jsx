@@ -4,7 +4,7 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="max-w-6xl mx-auto py-16 px-4 md:flex md:space-x-12">
+    <div className="max-w-6xl mx-auto py-16 px-4 md:flex md:space-x-12 bg-white">
       {/* Form Section */}
       <div className="md:w-1/2">
         <h4 className="text-sm font-semibold text-[#2A82AD] uppercase mb-2">

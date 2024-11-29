@@ -18,7 +18,7 @@ const About = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto p-8 md:p-16 pb-32">
+    <div className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto p-8 md:p-16 pb-32 bg-white">
       {/* Image Section */}
       <div className="relative w-full md:w-1/2 flex justify-center md:justify-start mb-8 md:mb-0">
         {/* Main Image */}
