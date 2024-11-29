@@ -7,57 +7,57 @@ import Link from "next/link";
 const blogPosts = [
   {
     title:
-      "The Best Pressure Washers for Car Detailing and Cleaning",
-    image: "/images/blog-1.jpg",
+      "Touch and Shine Auto Detail: Get Ready for Black Friday Deals",
+    image: "/images/b-fri.jpg",
     description:
-      "Looking for the best pressure washers for cars? Here you can find the relevant information about why pressure washing has",
-    category: "September 17, 2024 ",
+      "Black Friday is just around the corner, and it’s the perfect time to treat your car. At Touch and Shine Auto Detail, we know that your vehicle deserves a little",
+    category: "November 28, 2024  ",
     readTime: "",
-    link: "/the-best-pressure-washers-for-car-detailing-and-cleaning",
+    link: "/touch-and-shine-auto-detail-get-ready-for-black-friday-deals",
   },
   {
     title:
-      "The Complete Guide to Car Wax: How to Choose and Use?",
-    image: "/images/blog-2.png",
+      "Thanksgiving with Touch & Shine Auto Detail",
+    image: "/images/thanks.jpg",
     description:
-      "The paint of your car needs more than just a simple water and soap cleaning. It deserves safety, shine, and..",
+      "Your car’s interior merits equal attention to that of its outdoors. Ceramic coating for inside the car offers a long-lasting",
     category: "September 15, 2024",
     readTime: "",
-    link: "/the-complete-guide-to-car-wax-how-to-choose-and-use",
+    link: "/thanksgiving-with-touch-shine-auto-detail",
   },
  
-  {
-    title:
-      "How Long Does Car Detailing Take? A Comprehensive Guide",
-    image: "/images/blog-3.png",
-    description:
-      "Hey there, fellow car enthusiasts! Whether you’re passionate about your vehicle or just want your daily driver to shine, understanding..",
-    category: "September 10, 2024",
-    readTime: "",
-    link: "/how-long-does-car-detailing-take-a-comprehensive-guide",
-  },
-  {
-    title:
-      "What’s the difference between Polishing and buffing process; Which Technique is Right for Your Car?",
-    image: "/images/blog-4.png",
-    description:
-      "If you ever search for the improvement of paint for your vehicle, you must hear about the terms vehicle",
-    category: "September 10, 2024",
-    readTime: "",
-    link: "/unveiling-the-difference-between-buffing-and-polishing-which-technique-is-right-for-your-car",
-  }
-  ,
-  {
-    title:
-      "Easy Ways to Remove Swirl Marks from Your Car",
-    image: "/images/blog-5.jpg",
-    description:
-      "Swirl marks on your car can be an actual problem, diminishing its usual appearance. These light scratches and abrasions often",
-    category: "August 12, 2024 ",
-    readTime: "",
-    link: "/easy-ways-to-remove-swirl-marks-from-your-car",
-  }
-  ,
+  // {
+  //   title:
+  //     "Benefits of Automotive Interior Ceramic Coating",
+  //   image: "/images/ceramic-i.jpg",
+  //   description:
+  //     "Your car’s interior merits equal attention to that of its outdoors. Ceramic coating for inside the car offers a long-lasting",
+  //   category: "November 15, 2024",
+  //   readTime: "",
+  //   link: "/how-long-does-car-detailing-take-a-comprehensive-guide",
+  // },
+  // {
+  //   title:
+  //     "Tips for Easily Removing Tree Sap from Car Exterior",
+  //   image: "/images/tips.jpg",
+  //   description:
+  //     "Removing tree sap is crucial to keeping your car’s exterior smooth and spotless. While seemingly harmless, tree",
+  //   category: "November 11, 2024 ",
+  //   readTime: "",
+  //   link: "/tips-for-easily-removing-tree-sap-from-car-exterior",
+  // }
+  // ,
+  // {
+  //   title:
+  //     "How to Remove Smoke Odor from Car and Restore Fresh Air Inside?",
+  //   image: "/images/blog-5.jpg",
+  //   description:
+  //     "Many people experience smoke odor in their cars. The smell can linger and create an uncomfortable driving experience.",
+  //   category: "November 7, 2024 ",
+  //   readTime: "",
+  //   link: "/how-to-remove-smoke-odor-from-car-and-restore-fresh-air-inside",
+  // }
+  // ,
 
   
 

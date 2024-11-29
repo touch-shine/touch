@@ -20,7 +20,7 @@ const FooterU = () => {
            <a href="/">
             <img
               src="/images/logo.png" // Replace with the actual path to your logo
-              alt="Eyez on the Prize Logo"
+              alt="Touch and Shine"
               className="w-32 h-auto" // Adjust width and height as needed
             /></a>
           </div>
@@ -101,7 +101,7 @@ const FooterU = () => {
             </h4>
             <div className="flex items-center space-x-2">
               <FaPhoneAlt className="text-[#2A82AD]" />
-              <a href="tel:+19803070431">
+              <a href="tel:+12099149052">
               <span>(209) 914-9052</span></a>
             </div>
             <div className="flex items-center space-x-2">

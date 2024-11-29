@@ -111,7 +111,7 @@ const ContactForm = () => {
             height="300"
             allowFullScreen
             loading="lazy"
-            title="Eyez On The Prize Auto-Spa Location"
+            title="Touch and Shine Auto Detail Location"
             className="rounded-lg shadow-md border border-gray-300"
           ></iframe>
         </div>

@@ -39,7 +39,6 @@ const services = [
     image: "/images/interior-page.jpg",
     slug: "interior-detailing",
   },
-  
 ];
 
 const ServicePage = () => {
@@ -52,7 +51,7 @@ const ServicePage = () => {
         What We Offer
       </h2>
       <p className="text-white mt-2 mb-8 text-1xl lg:text-2xl">
-        Unleash Your Car's True Shine with Eyez on the Prize Auto Spa's Detailing Excellence in Charlotte
+        TRUSTED AUTO DETAILING SERVICES IN TRACY, CA
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
