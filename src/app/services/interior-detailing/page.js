@@ -102,7 +102,7 @@ const ServiceDetailPage = () => {
                   <div className="mt-6">
                     <a
                       href="tel:+12099149052"
-                      className="inline-flex rounded-lg bg-[#2A82AD] px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-purple-600 hover:bg-purple-900 hover:ring-purple-900"
+                      className="mb-3 inline-flex rounded-lg bg-[#2A82AD] px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-purple-600 hover:bg-purple-900 hover:ring-purple-900"
                     >
                       Call Now
                     </a>
