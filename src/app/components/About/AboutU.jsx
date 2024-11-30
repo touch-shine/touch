@@ -49,7 +49,7 @@ const AboutUs = () => {
           art of auto detailing and understanding of vehicle surface care.
           Gabriel learned many techniques – from leather seat protection to
           mastering the imperfections in the paint. In 1997, Gabriel Hernandez,
-          joined the Anderson Lexus team, in Fremont, Ca. Gabriel’s detailing
+          joined the Anderson Lexus team, in Fremont, CA. Gabriel’s detailing
           experience expanded and his passion for the business flourished. A car
           was no longer a car but a canvas. His goal wasn’t just to maintain a
           good looking car but to take care of the vehicles vital aspect in the
