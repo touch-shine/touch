@@ -36,7 +36,7 @@ const AboutUs = () => {
 
       {/* Text Section */}
       <div className="w-full md:w-1/2 text-center md:text-left">
-        <h4 className="text-sm font-semibold text-[#2A82AD] uppercase mb-2">
+        <h4 className="text-sm font-semibold text-[#2A82AD] uppercase mb-2 mt-3 md:mt-0">
           MEET THE OWNER
         </h4>
         <h2 className="text-1xl md:text-2xl font-bold text-gray-900  mb-4">
