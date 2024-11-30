@@ -10,7 +10,7 @@ const ContactForm = () => {
         <h4 className="text-sm font-semibold text-[#2A82AD] uppercase mb-2">
           Contact
         </h4>
-        <h2 className="text-3xl font-bold mb-6">Get In Touch Today</h2>
+        <h2 className="text-3xl font-bold mb-6 text-black">Get In Touch Today</h2>
 
         {/* Form Fields */}
         <form className="space-y-4">
