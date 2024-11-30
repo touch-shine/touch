@@ -32,7 +32,7 @@ export default function Navbar() {
             <img
               src="/images/logo.png"
               alt="Logo"
-              className="h-12 object-contain"
+              className="h-20 object-contain"
             />
             <span className="ml-2 text-sm font-bold text-[black]"></span>
           </a>
