@@ -3,6 +3,10 @@ import "./globals.css";
 import Navbar from "./components/Navbar/Navbar1";
 import FooterU from "./components/Footer/footerU";
 import { ToastContainer } from "react-toastify";
+import { MetadataProvider } from "./components/MetaDataContext";
+import Metadata from "./components/Metadata";
+import Head from "next/head";
+import Script from "next/script";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -16,7 +20,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Touch and Shine Auto Detail",
+  title: "",
   description: "",
   verification: {
     google: "xB_gZdp_X1KAfIzfUdw94d3i9SSObcpS4CFHgr_b2eo",
@@ -26,17 +30,82 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+    
       <head>
         {/* You can also explicitly add it like this */}
         <meta
           name="google-site-verification"
           content="xB_gZdp_X1KAfIzfUdw94d3i9SSObcpS4CFHgr_b2eo"
         />
+
+        
       </head>
+      <Head>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "AutoRepair",
+          "name": "Touch and Shine Auto Detail",
+          "url": "https://www.touchandshinedetail.com",
+          "logo": "https://www.touchandshinedetail.com/images/logo.png",
+          "image": "https://www.touchandshinedetail.com/images/logo.png",
+          "description": "Professional auto detailing services specializing in exterior, interior detailing, ceramic coating, and paint correction.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1881 Newport Ct.",
+            "addressLocality": "Tracy",
+            "addressRegion": "CA",
+            "postalCode": "95376",
+            "addressCountry": "US"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.6837558,
+            "longitude": -121.3754412
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-209-914-9052",
+            "contactType": "Customer Service",
+            "areaServed": "US",
+            "availableLanguage": "English"
+          },
+          "priceRange": "$$",
+          "sameAs": [
+            "https://www.facebook.com/TouchAndShineAutoDetail",
+            "https://twitter.com/TouchAndShineAutoDetail",
+            "https://www.instagram.com/TouchAndShineAutoDetail"
+          ],
+          "founder": {
+            "@type": "Person",
+            "name": "Gabriel Hernandez",
+            "jobTitle": "Owner and Lead Detailer",
+            "description": "Strategic, multidisciplinary auto detailer with 20+ years of experience."
+          },
+          "serviceArea": {
+            "@type": "Place",
+            "name": "Tracy, CA and surrounding areas"
+          },
+          "review": {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Calvin Levy"
+            },
+            "datePublished": "2024-01-01",
+            "reviewBody": "Highly recommend. Gabriel cleaned the entire interior and it looked spotless. I no longer cringe getting into my car. Thanks Gabriel!",
+            "name": "5 Star Service"
+          }
+        }) }} />
+
+
+        
+      </Head>
+
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      ><MetadataProvider>
         <Navbar />
+        <Metadata/>
         {children}
         <ToastContainer
           position="top-right"
@@ -50,6 +119,7 @@ export default function RootLayout({ children }) {
           pauseOnHover
         />
         <FooterU />
+        </MetadataProvider>
       </body>
     </html>
   );

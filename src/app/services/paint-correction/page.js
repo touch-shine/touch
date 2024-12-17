@@ -79,7 +79,7 @@ const ServiceDetailPage = () => {
             <div className="flex gap-2 items-center mt-3">
               Home
               <FaLongArrowAltRight className="text-lg text-blue-600" />
-              Ceramic Coating
+              Paint Correction
             </div>
           </div>
         </div>

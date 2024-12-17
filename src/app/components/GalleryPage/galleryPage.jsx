@@ -4,26 +4,26 @@ import { useState } from "react";
 const categories = ["All", "AutoSpa", "Interior",];
 
 const images = [
-  { src: "/images/1i.jpg", category: "Interior" },
-  { src: "/images/2i.jpg", category: "Interior" },
-  { src: "/images/3i.jpg", category: "Interior" },
-  { src: "/images/4i.jpg", category: "Interior" },
-  { src: "/images/5i.jpg", category: "Interior" },
-  { src: "/images/6i.jpg", category: "Interior" },
-  { src: "/images/7i.jpg", category: "Interior" },
-  { src: "/images/8i.jpg", category: "Interior" },
-  { src: "/images/9i.jpg", category: "Interior" },
-  { src: "/images/10i.jpg", category: "Interior" },
-  { src: "/images/1e.jpg", category: "AutoSpa" },
-  { src: "/images/2e.jpg", category: "AutoSpa" },
-  { src: "/images/3e.jpg", category: "AutoSpa" },
-  { src: "/images/4e.jpg", category: "AutoSpa" },
-  { src: "/images/5e.jpg", category: "AutoSpa" },
-  { src: "/images/6e.jpg", category: "AutoSpa" },
-  { src: "/images/7e.jpg", category: "AutoSpa" },
-  { src: "/images/8e.jpg", category: "AutoSpa" },
-  { src: "/images/9e.jpg", category: "AutoSpa" },
-  { src: "/images/10e.jpg", category: "AutoSpa" },
+  { src: "/images/1i.jpg", category: "Interior" ,alt:"Range Rover Velar interior detailing"},
+  { src: "/images/2i.jpg", category: "Interior", alt:"Auto detailing" },
+  { src: "/images/3i.jpg", category: "Interior" , alt:"Interior auto Detailing" },
+  { src: "/images/4i.jpg", category: "Interior" , alt:"Volkswagen Touareg interior detailing" },
+  { src: "/images/5i.jpg", category: "Interior", alt:"Land Rover Range Rover interior detailing"  },
+  { src: "/images/6i.jpg", category: "Interior", alt:"KIA Sportage interior detailing"  },
+  { src: "/images/7i.jpg", category: "Interior" , alt:"Kia Opirus interior detailing" },
+  { src: "/images/8i.jpg", category: "Interior" , alt:"2016 INFINITI QX50 interior detailing" },
+  { src: "/images/9i.jpg", category: "Interior" , alt:"Chrysler 300 interior detailing" },
+  { src: "/images/10i.jpg", category: "Interior", alt:"2018 Ford Explorer interior detailing"  },
+  { src: "/images/1e.jpg", category: "AutoSpa" , alt:"Porsche 911 exterior detailing" },
+  { src: "/images/2e.jpg", category: "AutoSpa", alt:"Mercedes-Benz E-Class exterior detailing"  },
+  { src: "/images/3e.jpg", category: "AutoSpa" , alt:"Audi Q7 exterior detailing" },
+  { src: "/images/4e.jpg", category: "AutoSpa" , alt:"2008 Mercedes-Benz C-Class exterior detailing" },
+  { src: "/images/5e.jpg", category: "AutoSpa", alt:"Audi R8 Spyder  exterior detailing"  },
+  { src: "/images/6e.jpg", category: "AutoSpa", alt:"Ford Fiesta exterior detailing"  },
+  { src: "/images/7e.jpg", category: "AutoSpa" , alt:"Volvo V60 exterior detailing" },
+  { src: "/images/8e.jpg", category: "AutoSpa", alt:"Dodge Challenger exterior detailing"  },
+  { src: "/images/9e.jpg", category: "AutoSpa", alt:"Toyota GR Yaris exterior detailing"  },
+  { src: "/images/10e.jpg", category: "AutoSpa" , alt:"car exterior detailing" },
 ];
 
 const GalleryPage = () => {
@@ -58,7 +58,7 @@ const GalleryPage = () => {
             <img
               className="h-auto max-w-full rounded-lg"
               src={image.src}
-              alt={image.category}
+              alt={image.alt}
             />
           </div>
         ))}

@@ -2,16 +2,17 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { motion, useTransform, useScroll } from 'framer-motion';
 
+// Updated images array to include alt text
 const images = [
-  '/images/s51.jpg',
-  '/images/s52.jpg',
-  '/images/s53.jpg',
-  '/images/s54.jpg',
-  '/images/s55.jpg',
-  '/images/s56.jpg',
-  '/images/s51.jpg',
-  '/images/s52.jpg',
-  '/images/s53.jpg',
+  { src: '/images/s51.jpg', alt: 'Elegant luxury sedan in motion' },
+  { src: '/images/s52.jpg', alt: 'Sleek sports car with dramatic lighting' },
+  { src: '/images/s53.jpg', alt: 'white Corvette sports car Auto Detailing' },
+  { src: '/images/s54.jpg', alt: 'black Cadillac SUV Auto Detailing' },
+  { src: '/images/s55.jpg', alt: 'red Tesla Model Y Auto Detailing' },
+  { src: '/images/s56.jpg', alt: 'Corvette sports car Auto Detailing' },
+  { src: '/images/s51.jpg', alt: 'red Dodge Challenger Auto Detailing' },
+  { src: '/images/s52.jpg', alt: '2010 Bentley Continental GT  Auto Detailing' },
+  { src: '/images/s53.jpg', alt: 'Vintage car with custom modifications' },
 ];
 
 const HorizontalGallery = () => {
@@ -58,12 +59,12 @@ const HorizontalGallery = () => {
           style={!isMobile ? { x } : {}} // Apply scroll animation only on non-mobile screens
           className={`flex mt-8 gap-6 ${isMobile ? 'overflow-x-auto' : ''} `}
         >
-          {images.map((src, index) => (
+          {images.map((image, index) => (
             <motion.div
               key={index}
               className="rounded-lg shadow-lg overflow-hidden min-w-[300px] h-64 transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl"
             >
-              <img src={src} alt={`Car ${index + 1}`} className="object-cover w-full h-full" />
+              <img src={image.src} alt={image.alt} className="object-cover w-full h-full" />
             </motion.div>
           ))}
         </motion.div>

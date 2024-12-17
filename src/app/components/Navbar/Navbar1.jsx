@@ -8,7 +8,7 @@ export default function Navbar() {
   // Navigation items with custom paths
   const navItems = [
     { label: "Home", href: "/" },
-    { label: "AboutUs", href: "/about-us" },
+    { label: "About Us", href: "/about-us" },
     { label: "Services", href: "/services" },
     
     { label: "Gallery", href: "/gallery" },

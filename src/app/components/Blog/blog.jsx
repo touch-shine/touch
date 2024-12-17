@@ -7,6 +7,26 @@ import Link from "next/link";
 const blogPosts = [
   {
     title:
+      "New Year, New Shine: Expert Auto Detailing Services to Start 2025 with a Clean Car",
+    image: "/images/touch-new-year.jpg",
+    description:
+      "As we embrace the start of 2025, it's the perfect time to give your vehicle the love and attention it deserves. ",
+    category: "December 18, 2024  ",
+    readTime: "",
+    link: "/new-year-new-shine-expert-auto-detailing-services-to-start-2025-with-a-clean-car",
+  },
+  {
+    title:
+      "Get Your Ride Holiday-Ready with Touch and Shine Auto Detail This Christmas",
+    image: "/images/touch-chris.jpg",
+    description:
+      "The holiday season is finally here! The air is crisp, the lights are twinkling, and there’s excitement in the air as families  ",
+    category: "December 18, 2024  ",
+    readTime: "",
+    link: "/get-your-ride-holiday-ready-with-touch-and-shine-auto-detail-this-christmas",
+  },
+  {
+    title:
       "Touch and Shine Auto Detail: Get Ready for Black Friday Deals",
     image: "/images/b-fri.jpg",
     description:

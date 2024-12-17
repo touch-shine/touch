@@ -44,6 +44,7 @@ const ServiceCards = () => {
         "Add amazing shine & ease of washing that no wax on the market could match.",
       image: "/images/ceramic.jpg",
       link: "/services/ceramic-coating",
+      alt:"Ceramic Coating"
     },
     {
       title: "Paint Correction",
@@ -51,6 +52,7 @@ const ServiceCards = () => {
         "Paint correction is the process of removing imperfections from your vehicle’s paint.",
       image: "/images/paint.jpg",
       link: "/services/paint-correction",
+      alt:"Paint Correction "
     },
     {
       title: "INTERIOR DETAILING",
@@ -58,6 +60,7 @@ const ServiceCards = () => {
         "We will not only clean but preserve your interior surfaces.",
       image: "/images/interior.jpg",
       link: "/services/interior-detailing",
+      alt:"Interior Detailing"
     },
     {
       title: "EXTERIOR DETAILING",
@@ -65,6 +68,7 @@ const ServiceCards = () => {
         "A professional car detail can restore the appearance of your vehicle and make it look new again.",
       image: "/images/exterior.jpg",
       link: "/services/exterior-detailing",
+      alt:"Exterior Detailing "
     },
   ];
 
@@ -86,6 +90,7 @@ const ServiceCards = () => {
             description={service.description}
             image={service.image}
             link={service.link}
+            alt={service.alt}
           />
         </motion.div>
       ))}

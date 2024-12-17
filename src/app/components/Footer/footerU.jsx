@@ -63,7 +63,7 @@ const FooterU = () => {
             </a>
           
             <a href="/gallery" className="hover:text-[#2A82AD]">
-              Portfolio
+              Gallery
             </a>
             <a href="/contact-us" className="hover:text-[#2A82AD]">
               Contact
@@ -106,10 +106,10 @@ const FooterU = () => {
             </div>
             <div className="flex items-center space-x-2">
               
-              {/* <FaEnvelope className="text-[#2A82AD]" />
-              <a href="mailto:eyezontheprizeautospa@gmail.com">
-              <span>eyezontheprize@gmail.com</span>
-              </a> */}
+              <FaEnvelope className="text-[#2A82AD]" />
+              <a href="mailto:touchandshine73@gmail.com">
+              <span>touchandshine73@gmail.com</span>
+              </a>
             </div>
           </div>
         </div>

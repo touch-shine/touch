@@ -30,7 +30,7 @@ const About = () => {
         >
           <img
             src="/images/3.jpg"
-            alt="Car Image"
+            alt="Car Detailing"
             className="w-full h-full object-cover rounded-lg"
           />
         </motion.div>

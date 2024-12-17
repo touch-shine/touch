@@ -28,7 +28,7 @@ const AboutUs = () => {
         >
           <img
             src="/images/owner.png"
-            alt="Car Image"
+            alt="Gabriel Hernandez"
             className="w-full h-full object-cover rounded-lg"
           />
         </div>
