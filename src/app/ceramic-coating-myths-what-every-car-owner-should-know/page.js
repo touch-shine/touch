@@ -210,7 +210,7 @@ const Blog1 = ({ data = defaultData, title, date, author, time, comments }) => {
             />
             <InfoItem
               icon={<FaCalendarAlt />}
-              text={date || "January 2, 2025"}
+              text={date || "December 28, 2024 "}
             />
             <InfoItem icon={<FaClock />} text={time || "12:01 am"} />
             <InfoItem icon={<FaComment />} text={comments || "No Comments"} />

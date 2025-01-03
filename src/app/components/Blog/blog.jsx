@@ -21,7 +21,7 @@ const blogPosts = [
     image: "/images/Exterior-blog.jpg",
     description:
       "Every car owner must focus on seasonal maintenance for their car's long-term health.Seasonal changes bring many risks that can harm your vehicle's exterior quality.",
-    category: "January 3, 2025  ",
+    category: "December 23, 2024  ",
     readTime: "",
     link: "/how-exterior-detailing-protects-your-car-from-seasonal-damage",
   },
@@ -31,7 +31,7 @@ const blogPosts = [
     image: "/images/Ceramic-Coating-Myths.jpg",
     description:
       "Ceramic coating has appeared as a favored option for vehicle owners seeking enhanced protection. Anyway, not all the information you receive is accurate",
-    category: "January 2, 2025  ",
+    category: "December 28, 2024  ",
     readTime: "",
     link: "/ceramic-coating-myths-what-every-car-owner-should-know",
   },
