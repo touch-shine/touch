@@ -64,6 +64,18 @@ export const MetadataProvider = ({ children }) => {
         title: "How to Remove Smoke Odor from Car and Restore Fresh Air Inside?",
         description: "Eliminate smoke odor from your car with these effective methods: deep cleaning, air purifiers, odor-neutralizing sprays, and natural remedies for fresh, clean air.",
       },
+      "/ceramic-coating-myths-what-every-car-owner-should-know": {
+        title: "Ceramic Coating Myths: What Every Car Owner Should Know",
+        description: "Debunk common ceramic coating myths with essential facts every car owner should know. Protect your vehicle effectively and make informed decisions about car care.",
+      },
+      "/how-exterior-detailing-protects-your-car-from-seasonal-damage": {
+        title: "How Exterior Detailing Protects Your Car from Seasonal Damage",
+        description: "Learn how exterior detailing protects your car from seasonal damage. Keep your vehicle looking new with effective techniques to shield it from harsh weather and elements.",
+      },
+      "/top-7-interior-detailing-hacks-for-a-fresh-and-clean-vehicle": {
+        title: "Top 7 Interior Detailing Hacks for a Fresh and Clean Vehicle",
+        description: "Discover the top 7 interior detailing hacks to keep your vehicle fresh and clean. Easy tips for a spotless car interior and long-lasting freshness.",
+      },
    
     
    

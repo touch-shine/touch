@@ -5,7 +5,36 @@ import Link from "next/link";
 
 
 const blogPosts = [
- 
+  {
+    title:
+      "Top 7 Interior Detailing Hacks for a Fresh and Clean Vehicle",
+    image: "/images/interior-blog.png",
+    description:
+      "Keeping a tidy car interior may seem difficult at first, but soon it will not be. Using the appropriate methods and equipment,",
+    category: "January 4, 2025  ",
+    readTime: "",
+    link: "/top-7-interior-detailing-hacks-for-a-fresh-and-clean-vehicle",
+  },
+  {
+    title:
+      "How Exterior Detailing Protects Your Car from Seasonal Damage",
+    image: "/images/Exterior-blog.jpg",
+    description:
+      "Every car owner must focus on seasonal maintenance for their car's long-term health.Seasonal changes bring many risks that can harm your vehicle's exterior quality.",
+    category: "January 3, 2025  ",
+    readTime: "",
+    link: "/how-exterior-detailing-protects-your-car-from-seasonal-damage",
+  },
+  {
+    title:
+      "Ceramic Coating Myths: What Every Car Owner Should Know",
+    image: "/images/Ceramic-Coating-Myths.jpg",
+    description:
+      "Ceramic coating has appeared as a favored option for vehicle owners seeking enhanced protection. Anyway, not all the information you receive is accurate",
+    category: "January 2, 2025  ",
+    readTime: "",
+    link: "/ceramic-coating-myths-what-every-car-owner-should-know",
+  },
   {
     title:
       "New Year, New Shine: Expert Auto Detailing Services to Start 2025 with a Clean Car",
