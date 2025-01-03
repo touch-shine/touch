@@ -5,6 +5,7 @@ import Link from "next/link";
 
 
 const blogPosts = [
+ 
   {
     title:
       "New Year, New Shine: Expert Auto Detailing Services to Start 2025 with a Clean Car",
@@ -35,49 +36,48 @@ const blogPosts = [
     readTime: "",
     link: "/touch-and-shine-auto-detail-get-ready-for-black-friday-deals",
   },
+
+
   {
     title:
       "Thanksgiving with Touch & Shine Auto Detail",
     image: "/images/thanks.jpg",
     description:
-      "Your car’s interior merits equal attention to that of its outdoors. Ceramic coating for inside the car offers a long-lasting",
-    category: "September 15, 2024",
+      "Your car’s interior merits equal attention to that of its outdoors. Ceramic coating for inside the car offers a",
+    category: "November 28, 2024",
     readTime: "",
     link: "/thanksgiving-with-touch-shine-auto-detail",
   },
- 
-  // {
-  //   title:
-  //     "Benefits of Automotive Interior Ceramic Coating",
-  //   image: "/images/ceramic-i.jpg",
-  //   description:
-  //     "Your car’s interior merits equal attention to that of its outdoors. Ceramic coating for inside the car offers a long-lasting",
-  //   category: "November 15, 2024",
-  //   readTime: "",
-  //   link: "/how-long-does-car-detailing-take-a-comprehensive-guide",
-  // },
-  // {
-  //   title:
-  //     "Tips for Easily Removing Tree Sap from Car Exterior",
-  //   image: "/images/tips.jpg",
-  //   description:
-  //     "Removing tree sap is crucial to keeping your car’s exterior smooth and spotless. While seemingly harmless, tree",
-  //   category: "November 11, 2024 ",
-  //   readTime: "",
-  //   link: "/tips-for-easily-removing-tree-sap-from-car-exterior",
-  // }
-  // ,
-  // {
-  //   title:
-  //     "How to Remove Smoke Odor from Car and Restore Fresh Air Inside?",
-  //   image: "/images/blog-5.jpg",
-  //   description:
-  //     "Many people experience smoke odor in their cars. The smell can linger and create an uncomfortable driving experience.",
-  //   category: "November 7, 2024 ",
-  //   readTime: "",
-  //   link: "/how-to-remove-smoke-odor-from-car-and-restore-fresh-air-inside",
-  // }
-  // ,
+  {
+    title:
+      "How to Remove Smoke Odor from Car and Restore Fresh Air Inside?",
+    image: "/images/Smoke-Odor.png",
+    description:
+      "Your car’s interior merits equal attention to that of its outdoors. Ceramic coating for inside the car offers a ",
+    category: "November 10, 2024  ",
+    readTime: "",
+    link: "/how-to-remove-smoke-odor-from-car-and-restore-fresh-air-inside",
+  },
+  {
+    title:
+      "Benefits of Interior Ceramic Coating",
+    image: "/images/Interior-coating-benefits.png",
+    description:
+      "Your car’s interior merits equal attention to that of its outdoors. Ceramic coating for inside the car offers a long-lasting solution for car owners. Maintaining your car interiors is vital to ",
+    category: "October 20, 2024  ",
+    readTime: "",
+    link: "/benefits-of-interior-ceramic-coating",
+  },
+  {
+    title:
+      "Tips for Easily Removing Tree Sap from Car Exterior",
+    image: "/images/tips.png",
+    description:
+      "Removing tree sap is crucial to keeping your car’s exterior smooth and spotless. While seemingly harmless,",
+    category: "October 10, 2024  ",
+    readTime: "",
+    link: "/tips-for-easily-removing-tree-sap-from-car-exterior",
+  },
 
   
 

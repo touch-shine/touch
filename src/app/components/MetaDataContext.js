@@ -52,6 +52,18 @@ export const MetadataProvider = ({ children }) => {
         title: "Vehicle Detailing Tips and News in Tracy",
         description: "Stay updated with the latest vehicle detailing tips and news from Touch and Shine Auto Detail in Tracy. Learn how to keep your vehicle looking its best!",
       },
+      "/tips-for-easily-removing-tree-sap-from-car-exterior": {
+        title: "Tips for Easily Removing Tree Sap from Car Exterior",
+        description: "Learn simple methods to remove tree sap from your car's exterior without damaging the paint. Quick, effective tips for a clean, smooth finish every time",
+      },
+      "/benefits-of-interior-ceramic-coating": {
+        title: "Benefits of Interior Ceramic Coating",
+        description: "Discover the benefits of interior ceramic coating: protection against stains, easy cleaning, and enhanced durability for a pristine, long-lasting car interior.",
+      },
+      "/how-to-remove-smoke-odor-from-car-and-restore-fresh-air-inside": {
+        title: "How to Remove Smoke Odor from Car and Restore Fresh Air Inside?",
+        description: "Eliminate smoke odor from your car with these effective methods: deep cleaning, air purifiers, odor-neutralizing sprays, and natural remedies for fresh, clean air.",
+      },
    
     
    
