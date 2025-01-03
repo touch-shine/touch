@@ -17,16 +17,6 @@ const blogPosts = [
   },
   {
     title:
-      "How Exterior Detailing Protects Your Car from Seasonal Damage",
-    image: "/images/Exterior-blog.jpg",
-    description:
-      "Every car owner must focus on seasonal maintenance for their car's long-term health.Seasonal changes bring many risks that can harm your vehicle's exterior quality.",
-    category: "December 23, 2024  ",
-    readTime: "",
-    link: "/how-exterior-detailing-protects-your-car-from-seasonal-damage",
-  },
-  {
-    title:
       "Ceramic Coating Myths: What Every Car Owner Should Know",
     image: "/images/Ceramic-Coating-Myths.jpg",
     description:
@@ -35,6 +25,17 @@ const blogPosts = [
     readTime: "",
     link: "/ceramic-coating-myths-what-every-car-owner-should-know",
   },
+  {
+    title:
+      "How Exterior Detailing Protects Your Car from Seasonal Damage",
+    image: "/images/Exterior-blog.jpg",
+    description:
+      "Every car owner must focus on seasonal maintenance for their car's long-term health.Seasonal changes bring many risks that can harm your vehicle's exterior quality.",
+    category: "December 23, 2024  ",
+    readTime: "",
+    link: "/how-exterior-detailing-protects-your-car-from-seasonal-damage",
+  },
+
   {
     title:
       "New Year, New Shine: Expert Auto Detailing Services to Start 2025 with a Clean Car",
