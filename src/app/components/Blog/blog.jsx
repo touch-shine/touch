@@ -7,6 +7,36 @@ import Link from "next/link";
 const blogPosts = [
   {
     title:
+      "Why Exterior Detailing Should Be Part of Your Regular Car Care Routine",
+    image: "/images/car-care-routine.jpg",
+    description:
+      "Keeping your car clean is key for a long life of it.Car Exterior detailing is a great way to keep it nice. It helps the paint last.",
+    category: "Feb 2, 2025  ",
+    readTime: "",
+    link: "/exterior-detailing-car-care-routine",
+  },
+  {
+    title:
+      "How Paint Correction Transforms Your Car’s Appearance",
+    image: "/images/paint-correction-transforms.jpg",
+    description:
+      "Have you ever looked at your car and thought it seemed dull or worn out? Maybe scratches or smudges make it lose its shine.",
+    category: "January 24, 2025  ",
+    readTime: "",
+    link: "/paint-correction-transforms-car-appearance",
+  },
+  {
+    title:
+      "How Ceramic Coating Keeps Your Car’s Paint Looking Fresh and New",
+    image: "/images/ceramic-coating-keeps-your-cars.jpg",
+    description:
+      "Ever wished your car could keep that fresh-off-the-lot shine? Well, there’s good news! Ceramic coating makes that dream real. This shield ",
+    category: "January 14, 2025  ",
+    readTime: "",
+    link: "/how-ceramic-coating-keeps-your-cars-paint-looking-fresh-and-new",
+  },
+  {
+    title:
       "Top 7 Interior Detailing Hacks for a Fresh and Clean Vehicle",
     image: "/images/interior-blog.png",
     description:

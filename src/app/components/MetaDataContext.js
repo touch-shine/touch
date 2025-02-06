@@ -76,6 +76,14 @@ export const MetadataProvider = ({ children }) => {
         title: "Top 7 Interior Detailing Hacks for a Fresh and Clean Vehicle",
         description: "Discover the top 7 interior detailing hacks to keep your vehicle fresh and clean. Easy tips for a spotless car interior and long-lasting freshness.",
       },
+      "/how-ceramic-coating-keeps-your-cars-paint-looking-fresh-and-new": {
+        title: "Protect and shine your car with ceramic coating.",
+        description: "Discover how ceramic coating protects your car's paint from damage, enhances its shine, and keeps it looking fresh and new for years to come.",
+      },
+      "/paint-correction-transforms-car-appearance": {
+        title: "Transform your car's look with paint correction.",
+        description: "Learn how paint correction removes imperfections, restores gloss, and completely transforms the appearance of your car for a showroom-quality finish.",
+      },
    
     
    
