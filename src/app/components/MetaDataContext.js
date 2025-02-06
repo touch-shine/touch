@@ -84,9 +84,13 @@ export const MetadataProvider = ({ children }) => {
         title: "Transform your car's look with paint correction.",
         description: "Learn how paint correction removes imperfections, restores gloss, and completely transforms the appearance of your car for a showroom-quality finish.",
       },
+      "/exterior-detailing-car-care-routine": {
+        title: "Exterior Detailing: A Key to Regular Car Care Routine",
+        description: "Discover why exterior detailing is essential for maintaining your car's value, appearance, and longevity. Make it a vital part of your car care routine today!",
+      },
    
     
-   
+      // exterior-detailing-car-care-routine
 
     // Add more pages as needed...
   };
