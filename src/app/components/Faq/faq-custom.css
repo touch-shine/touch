@@ -5,7 +5,7 @@
 
 .faq-title h2 {
 	color: white !important;
-	font: bold !important;
+	font-weight: 700;
 	font-size: 1.5rem !important;
 	line-height: 1.5rem !important;
 	text-align: center !important;
@@ -13,14 +13,14 @@
 
 .faq-body .row-title {
 	font-size: 1.25rem;
-	color: #ddd !important;
+	color: #fff !important;
 }
 
 .faq-body .row-content-text {
-	color: #ddd !important;
+	color: #fff !important;
 }
 .icon-wrapper {
-	color: #ddd !important;
+	color: #fff !important;
 }
 @media (min-width: 768px) {
 	.faq-title h2 {
