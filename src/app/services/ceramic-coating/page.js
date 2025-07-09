@@ -1,8 +1,9 @@
-import React from "react";
-import Image from "next/image";
-import { FaLongArrowAltRight } from "react-icons/fa";
-import { FaArrowRight } from "react-icons/fa";
+import Faqs from '@/app/components/Faq/Faqs';
+import { Ceramic } from '@/app/components/Faq/Homedata';
 
+import Image from "next/image";
+import React from "react";
+import { FaArrowRight, FaLongArrowAltRight } from "react-icons/fa";
 const sections = [
   {
     id: 1,
@@ -23,42 +24,47 @@ const sections = [
         />
       </svg>
     ),
-    title: "Professional Ceramic Coating for Cars Tracy, CA",
+    title: "Long-Lasting Gloss and Durability in Every Layer",
     description: (
       <div style={{ whiteSpace: "pre-line" }}>
         <div style={{ marginBottom: "1rem" }}>
-          Are you Looking for an experienced and meticulous ceramic coating
-          installer in the Tracy, CA area? We are San Joaquin County’s #1 Mobile
-          Detailing Service. With over 10 years of experience, we provide
-          professional-grade Ceramic Coating & Paint Correction services. Our
-          dedication to quality and long-term relationships sets us apart as we
-          strive to keep your vehicle looking it’s best year-round!
+          Searching for a ceramic coating specialist whom you can trust in Tracy? Touch & Shine Auto detail is the number one <strong>mobile car detailing</strong> service with more than ten years of on-the-job experience. Our expert areas are high quality ceramic coating and precision paint correction that shield your automobile and make it shine even after a few years. We offer both quality and lasting Ceramic Coating near tracy to gain an edge in the industry because we preserve, not detail.
+
         </div>
 
         <div style={{ marginBottom: "1rem" }}>
-          Here are the main reasons why others have had their vehicles Ceramic
-          Coated at Touch & Shine Auto Detail:
+          Why Ceramic Coating by Touch & Shine Auto Detail?
+
         </div>
 
         {/* Arrow Bullet Points */}
         <ul className="list-none text-gray-300 mt-4 space-y-2">
           <li className="flex items-center gap-2">
             <FaArrowRight className="text-[#2A82AD]" />
-            Protects Your Paint From The Elements
+            Protects your paint against severe weather and wear due to UV rays
           </li>
           <li className="flex items-center gap-2">
             <FaArrowRight className="text-[#2A82AD]" />
-            Keeps Your Car Cleaner Longer
+            Help your car stay cleaner, longer-without working so hard at it
+
           </li>
           <li className="flex items-center gap-2">
             <FaArrowRight className="text-[#2A82AD]" />
-            Bugs, Tree Sap & Bird Droppings Clean Easily
+            Wastes off insects, sap and bird droppings with ease
+
           </li>
           <li className="flex items-center gap-2">
             <FaArrowRight className="text-[#2A82AD]" />
-            Years of Protection & Gloss
+            Provides long lasting safeguard and eye catching shine
+
           </li>
         </ul>
+
+        <div style={{ marginTop: "1rem" }}>
+          Preserve your investment with a long-lasting finish.
+
+
+        </div>
       </div>
     ),
     imgSrc: "/images/ceramic-page.jpg",
@@ -67,13 +73,13 @@ const sections = [
 
 const ServiceDetailPage = () => {
   return (
-    <div>
+    <>
+
       <div className="relative min-h-[60vh] bg-gradient-to-r from-blue-500 to-black bg-center bg-no-repeat bg-cover z-0">
         <div className="absolute inset-0 bg-[url('/images/services-bg.jpg')] bg-center bg-no-repeat bg-cover opacity-[0.26] transition-all duration-300"></div>
         <div className="relative z-10 p-10 w-full text-center">
           <h1 className="text-white mt-32 text-5xl font-bold">
-            Professional Ceramic Coating for Cars Tracy, CA
-          </h1>
+            Shine with Skilled Ceramic <br /> Coating for Cars Tracy, CA          </h1>
 
           <div className="flex justify-center text-white mt-1 text-md font_barlow font-semibold text-opacity-85 font_barlow">
             <div className="flex gap-2 items-center mt-3">
@@ -126,7 +132,10 @@ const ServiceDetailPage = () => {
           </div>
         ))}
       </div>
-    </div>
+      <div className="flex justify-center bg-white">
+        <Faqs data={Ceramic}></Faqs>
+      </div>
+    </>
   );
 };
 
