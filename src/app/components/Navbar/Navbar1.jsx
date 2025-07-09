@@ -10,6 +10,7 @@ export default function Navbar() {
 	const navItems = [
 		{ label: 'Home', href: '/' },
 		{ label: 'About Us', href: '/about-us' },
+		{ label: 'Services', href: '/services', isServices: true }, // mark it
 		{ label: 'Gallery', href: '/gallery' },
 		{ label: 'Blog', href: '/blogs' },
 	];
@@ -71,75 +72,79 @@ export default function Navbar() {
 						id="navbar-default"
 					>
 						<ul className="flex flex-col md:flex-row md:space-x-8 font-medium bg-gray-800 md:bg-transparent p-4 md:p-0 border md:border-0 border-gray-700 rounded-lg md:rounded-none">
-							{navItems.map((item, index) => (
-								<li key={index}>
-									<a
-										href={item.href}
-										className="block py-2 px-3 text-white hover:text-[#2A82AD] rounded md:hover:bg-transparent md:p-0"
-										onClick={() => setIsOpen(false)}
-									>
-										{item.label}
-									</a>
-								</li>
-							))}
-
-							{/* Services with dropdown */}
-							<li className="relative group">
-								{/* Parent Link + Icon */}
-								<div
-									className="flex items-center justify-between py-2 px-3 text-white cursor-pointer md:p-0 md:block"
-									onClick={() => setServicesOpen(!servicesOpen)}
-								>
-									<a
-										href="/services"
-										className="hover:text-[#2A82AD] md:hover:bg-transparent group"
-										onClick={() => setIsOpen(false)}
-									>
-										Services
-									</a>
-									{/* Arrow for mobile */}
-									<FaChevronDown
-										className={`ml-2 transition-transform duration-200 md:hidden ${
-											servicesOpen ? 'rotate-180' : ''
-										}`}
-									/>
-								</div>
-
-								{/* Desktop hover dropdown */}
-								<ul className=" bg-gray-800 border border-gray-700 rounded-lg mt-2 w-48 text-left z-50 md:hidden md:group-hover:block md:absolute md:left-0 md:top-3 hidden">
-									{servicesDropdown.map((subItem, idx) => (
-										<li key={idx} className="hidden md:block group-hover:block">
-											<a
-												href={subItem.href}
-												className="block px-4 py-2 text-white hover:bg-gray-700"
-												onClick={() => setIsOpen(false)}
+							{navItems.map((item, index) => {
+								if (item.isServices) {
+									return (
+										<li key="services" className="relative group">
+											{/* Services parent */}
+											<div
+												className="flex items-center justify-between py-2 px-3 text-white cursor-pointer md:p-0 md:block"
+												onClick={() => setServicesOpen(!servicesOpen)}
 											>
-												{subItem.label}
-											</a>
-										</li>
-									))}
-								</ul>
-
-								{/* Mobile toggle dropdown */}
-								{servicesOpen && (
-									<ul className="md:hidden mt-2 bg-gray-700 rounded-lg">
-										{servicesDropdown.map((subItem, idx) => (
-											<li key={idx}>
 												<a
-													href={subItem.href}
-													className="block px-4 py-2 text-white hover:bg-gray-600"
-													onClick={() => {
-														setIsOpen(false);
-														setServicesOpen(false);
-													}}
+													href={item.href}
+													className="hover:text-[#2A82AD] md:hover:bg-transparent group"
+													onClick={() => setIsOpen(false)}
 												>
-													{subItem.label}
+													{item.label}
 												</a>
-											</li>
-										))}
-									</ul>
-								)}
-							</li>
+												<FaChevronDown
+													className={`ml-2 transition-transform duration-200 md:hidden ${
+														servicesOpen ? 'rotate-180' : ''
+													}`}
+												/>
+											</div>
+
+											{/* Desktop hover */}
+											<ul className="bg-gray-800 border border-gray-700 rounded-lg mt-2 w-48 text-left z-50 md:group-hover:block md:absolute md:left-0 md:top-3.5 hidden">
+												{servicesDropdown.map((subItem, idx) => (
+													<li key={idx}>
+														<a
+															href={subItem.href}
+															className="block px-4 py-2 text-white hover:bg-gray-700"
+															onClick={() => setIsOpen(false)}
+														>
+															{subItem.label}
+														</a>
+													</li>
+												))}
+											</ul>
+
+											{/* Mobile toggle */}
+											{servicesOpen && (
+												<ul className="md:hidden mt-2 bg-gray-700 rounded-lg">
+													{servicesDropdown.map((subItem, idx) => (
+														<li key={idx}>
+															<a
+																href={subItem.href}
+																className="block px-4 py-2 text-white hover:bg-gray-600"
+																onClick={() => {
+																	setIsOpen(false);
+																	setServicesOpen(false);
+																}}
+															>
+																{subItem.label}
+															</a>
+														</li>
+													))}
+												</ul>
+											)}
+										</li>
+									);
+								}
+
+								return (
+									<li key={index}>
+										<a
+											href={item.href}
+											className="block py-2 px-3 text-white hover:text-[#2A82AD] rounded md:hover:bg-transparent md:p-0"
+											onClick={() => setIsOpen(false)}
+										>
+											{item.label}
+										</a>
+									</li>
+								);
+							})}
 						</ul>
 					</div>
 

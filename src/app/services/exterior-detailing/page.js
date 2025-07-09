@@ -127,10 +127,11 @@ const ServiceDetailPage = () => {
             </div>
           </div>
         ))}
+        <div className="flex justify-center ">
+          <Faqs data={Exterior}></Faqs>
+        </div>
       </div>
-      <div className="flex justify-center bg-white">
-        <Faqs data={Exterior}></Faqs>
-      </div>
+
     </>
   );
 };
