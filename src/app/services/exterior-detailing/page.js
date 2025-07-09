@@ -1,8 +1,9 @@
-import React from "react";
-import Image from "next/image";
-import { FaLongArrowAltRight } from "react-icons/fa";
-import { FaArrowRight } from "react-icons/fa";
+import Faqs from '@/app/components/Faq/Faqs';
+import { Exterior } from '@/app/components/Faq/Homedata';
 
+import Image from "next/image";
+import React from "react";
+import { FaArrowRight, FaLongArrowAltRight } from "react-icons/fa";
 const sections = [
   {
     id: 1,
@@ -27,36 +28,38 @@ const sections = [
     description: (
       <div style={{ whiteSpace: "pre-line" }}>
         <div style={{ marginBottom: "1rem" }}>
-          Discover the unparalleled auto detailing services offered at Touch &
-          Shine Auto Detail in Tracy, CA. We guarantee unmatched results for
-          your vehicle. Reach out to us for a free quote & let us guide you in
-          selecting the perfect auto detail package for your car. Below is our
-          average pricing and package for the exterior of your vehicle.
+          Touch and Shine Auto Detail offers professional quality Exterior Detailing in Tracy, CA. We clean and polish your car using top quality cleaning products and methods, making it come back to its shine as well as preserving its finishes with utmost precision. Sedan, suv and all the cars, we get the package just right to meet the needs of your vehicle, and the results speak for themselves. Get a free quote for Paint correction services near Tracy and we will assist you to select the best detailing package
         </div>
 
         <div style={{ marginBottom: "1rem" }}>
-        Here are the main reasons why others have had their vehicles detailed at Touch & Shine Auto Detail.
+          Reasons, Why our Mobile Exterior Detailing is top choice by Clients:
+
         </div>
 
         {/* Arrow Bullet Points */}
         <ul className="list-none text-gray-300 mt-4 space-y-2">
           <li className="flex items-center gap-2">
             <FaArrowRight className="text-[#2A82AD]" />
-            Preserve Your Vehicles Surfaces
+            Keeps your vehicle surfaces well guarded and in good condition
           </li>
           <li className="flex items-center gap-2">
             <FaArrowRight className="text-[#2A82AD]" />
-            Save Time & Hassle
+            Convenience and on site service saves you time
           </li>
           <li className="flex items-center gap-2">
             <FaArrowRight className="text-[#2A82AD]" />
-            We Come to You
+            We will visit you at your home or workplace, there is no waiting, no hassle
           </li>
           <li className="flex items-center gap-2">
             <FaArrowRight className="text-[#2A82AD]" />
-            Professional Products & Techniques
+            Cheap detailing services with showroom quality finishing
           </li>
         </ul>
+        <div style={{ marginTop: "1rem" }}>
+          Your car would rather be more than washed--it also needs to be touched and shone.
+
+        </div>
+
       </div>
     ),
     imgSrc: "/images/s51.jpg",
@@ -65,12 +68,13 @@ const sections = [
 
 const ServiceDetailPage = () => {
   return (
-    <div>
+    <>
+
       <div className="relative min-h-[60vh] bg-gradient-to-r from-blue-500 to-black bg-center bg-no-repeat bg-cover z-0">
         <div className="absolute inset-0 bg-[url('/images/services-bg.jpg')] bg-center bg-no-repeat bg-cover opacity-[0.26] transition-all duration-300"></div>
         <div className="relative z-10 p-10 w-full text-center">
           <h1 className="text-white mt-32 text-5xl font-bold">
-            Professional Mobile Exterior Detailing Tracy, CA
+            Brilliance through Professional <br /> Mobile Exterior Detailing Tracy, CA
           </h1>
 
           <div className="flex justify-center text-white mt-1 text-md font_barlow font-semibold text-opacity-85 font_barlow">
@@ -124,7 +128,10 @@ const ServiceDetailPage = () => {
           </div>
         ))}
       </div>
-    </div>
+      <div className="flex justify-center bg-white">
+        <Faqs data={Exterior}></Faqs>
+      </div>
+    </>
   );
 };
 

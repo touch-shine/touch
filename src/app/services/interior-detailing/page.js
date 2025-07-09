@@ -1,8 +1,9 @@
-import React from "react";
-import Image from "next/image";
-import { FaLongArrowAltRight } from "react-icons/fa";
-import { FaArrowRight } from "react-icons/fa";
+import Faqs from '@/app/components/Faq/Faqs';
+import { Interior } from '@/app/components/Faq/Homedata';
 
+import Image from "next/image";
+import React from "react";
+import { FaArrowRight, FaLongArrowAltRight } from "react-icons/fa";
 const sections = [
   {
     id: 1,
@@ -23,40 +24,41 @@ const sections = [
         />
       </svg>
     ),
-    title: "Professional Mobile Interior Detailing Tracy, CA",
+    title: "Bringing Convenience and Cleanliness Straight to Your Doorstep",
     description: (
       <div style={{ whiteSpace: "pre-line" }}>
         <div style={{ marginBottom: "1rem" }}>
-          Discover the unparalleled auto detailing services offered at Touch &
-          Shine Auto Detail in Tracy, CA. We guarantee unmatched results for
-          your vehicle. Reach out to us for a free quote & let us guide you in
-          selecting the perfect auto detail package for your car. Below is our
-          average pricing and package for the interior of your vehicle.
+          Contact Touch & Shine Auto Detail to get the affordable Mobile Interior Detailing services brought directly to your door- serving Tracy, CA and outlying dependencies. A private owner spends a lot of time in a car, and we clean the trucks to such a degree that the car will be an enjoyable place to sit. Reach us and get a quote free of charge and we will assist you with choosing the right <strong>Auto Detailing in Tracy, CA </strong>bundle according to your car requirements.
         </div>
 
         <div style={{ marginBottom: "1rem" }}>
-        Here are the main reasons why others have had their vehicles detailed at Touch & Shine Auto Detail.
+          Reasons that Clients Can Rely on Our cheap Interior detailing tracy:
+
         </div>
 
         {/* Arrow Bullet Points */}
         <ul className="list-none text-gray-300 mt-4 space-y-2">
           <li className="flex items-center gap-2">
             <FaArrowRight className="text-[#2A82AD]" />
-            Preserve Your Vehicles Surfaces
+            Prolongs the lifespan of your indoor materials
           </li>
           <li className="flex items-center gap-2">
             <FaArrowRight className="text-[#2A82AD]" />
-            Save Time & Hassle
+            Time saving convenient service
           </li>
           <li className="flex items-center gap-2">
             <FaArrowRight className="text-[#2A82AD]" />
-            We Come to You
+            Professionally remove stains, odor and build ups
           </li>
           <li className="flex items-center gap-2">
             <FaArrowRight className="text-[#2A82AD]" />
-            Professional Products & Techniques
+            The finest products and ways of a thorough, permanent clean
           </li>
         </ul>
+        <div style={{ marginTop: "1rem" }}>
+          Show the interior of your vehicle the attention it requires- in the comfort you demand.
+
+        </div>
       </div>
     ),
     imgSrc: "/images/interior-page.jpg",
@@ -65,12 +67,14 @@ const sections = [
 
 const ServiceDetailPage = () => {
   return (
-    <div>
+    <>
+
       <div className="relative min-h-[60vh] bg-gradient-to-r from-blue-500 to-black bg-center bg-no-repeat bg-cover z-0">
         <div className="absolute inset-0 bg-[url('/images/services-bg.jpg')] bg-center bg-no-repeat bg-cover opacity-[0.26] transition-all duration-300"></div>
         <div className="relative z-10 p-10 w-full text-center">
-          <h1 className="text-white mt-32 text-5xl font-bold">
-            Professional Mobile Interior Detailing Tracy, CA
+          <h1 className="text-white mt-32 text-5xl font-bold text-center">
+            Freshen Up Your Drive with Experienced
+            <br /> Mobile Interior Detailing Tracy, CA
           </h1>
 
           <div className="flex justify-center text-white mt-1 text-md font_barlow font-semibold text-opacity-85 font_barlow">
@@ -124,7 +128,10 @@ const ServiceDetailPage = () => {
           </div>
         ))}
       </div>
-    </div>
+      <div className="flex justify-center bg-white">
+        <Faqs data={Interior}></Faqs>
+      </div>
+    </>
   );
 };
 

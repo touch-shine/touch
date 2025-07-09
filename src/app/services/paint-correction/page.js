@@ -1,8 +1,9 @@
-import React from "react";
-import Image from "next/image";
-import { FaLongArrowAltRight } from "react-icons/fa";
-import { FaArrowRight } from "react-icons/fa";
+import Faqs from '@/app/components/Faq/Faqs';
+import { Paint } from '@/app/components/Faq/Homedata';
 
+import Image from "next/image";
+import React from "react";
+import { FaArrowRight, FaLongArrowAltRight } from "react-icons/fa";
 const sections = [
   {
     id: 1,
@@ -23,42 +24,45 @@ const sections = [
         />
       </svg>
     ),
-    title: "Paint Correction Services in Tracy, CA",
+    title: "Precision Paint Correction to Restore Clarity",
     description: (
       <div style={{ whiteSpace: "pre-line" }}>
         <div style={{ marginBottom: "1rem" }}>
-        Paint correction is the process of removing imperfections from your vehicle’s paint, such as swirl marks, scratches, and oxidation, to restore its shine and clarity. Touch & Shine Auto Detail offers a professional paint correction services in Tracy & San Joaquin County to help you achieve a flawless finish for your vehicle.
+          The process of paint correction is a laborious one and removes any defects such as swirl marks, fine scratches, oxidation, and water-spots and restores your car to its original luster and dimension. We do expert <strong>Paint Correction Specialists in Tracy, CA </strong>and throughout San Joaquin county to present a perfect mirror finish on your car that causes jaws to drop.
 
 
         </div>
 
         <div style={{ marginBottom: "1rem" }}>
-        IF YOUR VEHICLE HAS ANY OF THESE ISSUES, PAINT CORRECTION IS THE ANSWER.
+          Are you facing these problems? The Solution is our Paint Correction Services near Tracy that includes::
         </div>
 
         {/* Arrow Bullet Points */}
         <ul className="list-none text-gray-300 mt-4 space-y-2">
           <li className="flex items-center gap-2">
             <FaArrowRight className="text-[#2A82AD]" />
-            Scratches from Machine Car Washes
+            Car wash marks
           </li>
           <li className="flex items-center gap-2">
             <FaArrowRight className="text-[#2A82AD]" />
-            Hard Water Spots
+            Hard water stains
           </li>
           <li className="flex items-center gap-2">
             <FaArrowRight className="text-[#2A82AD]" />
-            Swirls or Scratches*
+            Swirl scars and scratches on the surfaces
           </li>
           <li className="flex items-center gap-2">
             <FaArrowRight className="text-[#2A82AD]" />
-            Oxidation or Haziness
+            Worn out by oxidation or dim paint
           </li>
           <li className="flex items-center gap-2">
             <FaArrowRight className="text-[#2A82AD]" />
-            Stains from Bird Bombs, Bugs, or Tree Sap
+            Bird droppings, bugs, or tree sap etching
           </li>
         </ul>
+        <div style={{ marginTop: "1rem" }}>
+          Exterior Auto Detailing near me will restore your car safely, professionally and accurately according to your custom requirement.
+        </div>
       </div>
     ),
     imgSrc: "/images/paint-correction-page.jpg",
@@ -67,12 +71,12 @@ const sections = [
 
 const ServiceDetailPage = () => {
   return (
-    <div>
+    <>
       <div className="relative min-h-[60vh] bg-gradient-to-r from-blue-500 to-black bg-center bg-no-repeat bg-cover z-0">
         <div className="absolute inset-0 bg-[url('/images/services-bg.jpg')] bg-center bg-no-repeat bg-cover opacity-[0.26] transition-all duration-300"></div>
         <div className="relative z-10 p-10 w-full text-center">
           <h1 className="text-white mt-32 text-5xl font-bold">
-            Paint Correction Services in Tracy, CA
+            Erase Imperfections with Paint <br /> Correction Services in Tracy, CA
           </h1>
 
           <div className="flex justify-center text-white mt-1 text-md font_barlow font-semibold text-opacity-85 font_barlow">
@@ -126,7 +130,11 @@ const ServiceDetailPage = () => {
           </div>
         ))}
       </div>
-    </div>
+
+      <div className="flex justify-center bg-white">
+        <Faqs data={Paint}></Faqs>
+      </div>
+    </>
   );
 };
 
