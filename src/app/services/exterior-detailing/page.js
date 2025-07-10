@@ -28,7 +28,12 @@ const sections = [
     description: (
       <div style={{ whiteSpace: "pre-line" }}>
         <div style={{ marginBottom: "1rem" }}>
-          Touch and Shine Auto Detail offers professional quality Exterior Detailing in Tracy, CA. We clean and polish your car using top quality cleaning products and methods, making it come back to its shine as well as preserving its finishes with utmost precision. Sedan, suv and all the cars, we get the package just right to meet the needs of your vehicle, and the results speak for themselves. Get a free quote for Paint correction services near Tracy and we will assist you to select the best detailing package
+          Touch and Shine Auto Detail offers professional quality Exterior Detailing in Tracy, CA. We clean and polish your car using top quality cleaning products and methods, making it come back to its shine as well as preserving its finishes with utmost precision. Sedan, suv and all the cars, we get the package just right to meet the needs of your vehicle, and the results speak for themselves. Get a free quote for <Link
+            href="/services/paint-correction"
+            className="text-[#2A82AD] font-semibold"
+          >
+            Paint correction services near Tracy
+          </Link>{' '} and we will assist you to select the best detailing package
         </div>
 
         <div style={{ marginBottom: "1rem" }}>

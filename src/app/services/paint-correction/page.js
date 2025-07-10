@@ -1,7 +1,7 @@
 import Faqs from '@/app/components/Faq/Faqs';
 import { Paint } from '@/app/components/Faq/Homedata';
-
 import Image from "next/image";
+import Link from 'next/link';
 import React from "react";
 import { FaArrowRight, FaLongArrowAltRight } from "react-icons/fa";
 const sections = [
@@ -34,7 +34,7 @@ const sections = [
         </div>
 
         <div style={{ marginBottom: "1rem" }}>
-          Are you facing these problems? The Solution is our Paint Correction Services near Tracy that includes::
+          Are you facing these problems? The Solution is our <strong>Paint Correction Services near Tracy </strong>that includes::
         </div>
 
         {/* Arrow Bullet Points */}
@@ -61,7 +61,12 @@ const sections = [
           </li>
         </ul>
         <div style={{ marginTop: "1rem" }}>
-          Exterior Auto Detailing near me will restore your car safely, professionally and accurately according to your custom requirement.
+          <Link
+            href="/services/exterior-detailing"
+            className="text-[#2A82AD] font-semibold"
+          >
+            Exterior Auto Detailing near me
+          </Link>{' '} will restore your car safely, professionally and accurately according to your custom requirement.
         </div>
       </div>
     ),

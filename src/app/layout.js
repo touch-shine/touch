@@ -1,12 +1,12 @@
 import localFont from "next/font/local";
-import "./globals.css";
-import Navbar from "./components/Navbar/Navbar1";
-import FooterU from "./components/Footer/footerU";
-import { ToastContainer } from "react-toastify";
-import { MetadataProvider } from "./components/MetaDataContext";
-import Metadata from "./components/Metadata";
 import Head from "next/head";
 import Script from "next/script";
+import { ToastContainer } from "react-toastify";
+import FooterU from "./components/Footer/footerU";
+import { MetadataProvider } from "./components/MetaDataContext";
+import Metadata from "./components/Metadata";
+import Navbar from "./components/Navbar/Navbar1";
+import "./globals.css";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -41,6 +41,8 @@ export default function RootLayout({ children }) {
 
       </head>
       <Head>
+        <meta name="google-site-verification" content="CdZ_IxgmhATd8HZmACAvCcX14xnexgUEb-R-9OcAUww" />
+
         <script type="application/ld+json" dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
