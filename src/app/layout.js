@@ -23,7 +23,7 @@ export const metadata = {
   title: " Trusted Auto Detailing Services in Tracy, CA | Touch & Shine Auto Detail",
   description: " Looking for expert auto detailing near Tracy, CA? Touch & Shine Auto Detail delivers premium paint correction, ceramic coating, and mobile detailing with care and precision.",
   verification: {
-    google: "xB_gZdp_X1KAfIzfUdw94d3i9SSObcpS4CFHgr_b2eo",
+    google: "CdZ_IxgmhATd8HZmACAvCcX14xnexgUEb-R-9OcAUww",
   },
 };
 // google search console code added 
@@ -33,16 +33,14 @@ export default function RootLayout({ children }) {
 
       <head>
         {/* You can also explicitly add it like this */}
-        <meta
+        {/* <meta
           name="google-site-verification"
           content="xB_gZdp_X1KAfIzfUdw94d3i9SSObcpS4CFHgr_b2eo"
-        />
+        /> */}
 
-
+        <meta name="google-site-verification" content="CdZ_IxgmhATd8HZmACAvCcX14xnexgUEb-R-9OcAUww" />
       </head>
       <Head>
-        <meta name="google-site-verification" content="CdZ_IxgmhATd8HZmACAvCcX14xnexgUEb-R-9OcAUww" />
-
         <script type="application/ld+json" dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
@@ -100,9 +98,6 @@ export default function RootLayout({ children }) {
             }
           })
         }} />
-
-
-
       </Head>
 
       <body
