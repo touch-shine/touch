@@ -1,7 +1,7 @@
 'use client';
-import React from 'react';
 import { motion } from 'framer-motion';
-
+import Link from 'next/link';
+import React from 'react';
 const About = () => {
 	const imageVariants = {
 		hidden: { opacity: 0, x: '-100%' },
@@ -73,16 +73,21 @@ const About = () => {
 					excellent. The core of our activities is passion for excellence based
 					on our expertise regarding automobiles and interest to surpass your
 					expectations. Leave your pride in the hands of our expert team as they
-					will treat your car like our own. We are the answer to your query:
-					best auto detailing near me.
-					<br /> <br />
-					Along with our detail work and service you get our best ceramic
-					coating for cars. Touch and Shine Auto Detail is a company with a
-					vision that the car you love so much should not be washed, but it
-					needs a skilled person to keep it clean and attractive in order to
-					serve you many years to come. Coupled with our focus on quality,
-					convenience and satisfaction to customers, we also ensure that car
-					owners in Tracy and environs can also easily get the best in car care.
+					will treat your car like our own.
+					<br /> <br /> We are the answer to your query: best auto detailing
+					near me. Along with our detail work and service you get our{' '}
+					<Link
+						href="/services/ceramic-coating"
+						className="text-[#2A82AD] font-semibold"
+					>
+						best ceramic coating for cars.
+					</Link>{' '}
+					Touch and Shine Auto Detail is a company with a vision that the car
+					you love so much should not be washed, but it needs a skilled person
+					to keep it clean and attractive in order to serve you many years to
+					come. Coupled with our focus on quality, convenience and satisfaction
+					to customers, we also ensure that car owners in Tracy and environs can
+					also easily get the best in car care.
 				</p>
 			</div>
 		</div>

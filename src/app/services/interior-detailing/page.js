@@ -28,7 +28,12 @@ const sections = [
     description: (
       <div style={{ whiteSpace: "pre-line" }}>
         <div style={{ marginBottom: "1rem" }}>
-          Contact Touch & Shine Auto Detail to get the affordable Mobile Interior Detailing services brought directly to your door- serving Tracy, CA and outlying dependencies. A private owner spends a lot of time in a car, and we clean the trucks to such a degree that the car will be an enjoyable place to sit. Reach us and get a quote free of charge and we will assist you with choosing the right <strong>Auto Detailing in Tracy, CA </strong>bundle according to your car requirements.
+          Contact Touch & Shine Auto Detail to get the affordable Mobile Interior Detailing services brought directly to your door- serving Tracy, CA and outlying dependencies. A private owner spends a lot of time in a car, and we clean the trucks to such a degree that the car will be an enjoyable place to sit. Reach us and get a quote free of charge and we will assist you with choosing the right <Link
+            href="/"
+            className="text-[#2A82AD] font-semibold"
+          >
+            Auto Detailing in Tracy, CA
+          </Link>{' '} bundle according to your car requirements.
         </div>
 
         <div style={{ marginBottom: "1rem" }}>

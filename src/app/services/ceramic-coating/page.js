@@ -1,7 +1,7 @@
 import Faqs from '@/app/components/Faq/Faqs';
 import { Ceramic } from '@/app/components/Faq/Homedata';
-
 import Image from "next/image";
+import Link from 'next/link';
 import React from "react";
 import { FaArrowRight, FaLongArrowAltRight } from "react-icons/fa";
 const sections = [
@@ -28,7 +28,12 @@ const sections = [
     description: (
       <div style={{ whiteSpace: "pre-line" }}>
         <div style={{ marginBottom: "1rem" }}>
-          Searching for a ceramic coating specialist whom you can trust in Tracy? Touch & Shine Auto detail is the number one <strong>mobile car detailing</strong> service with more than ten years of on-the-job experience. Our expert areas are high quality ceramic coating and precision paint correction that shield your automobile and make it shine even after a few years. We offer both quality and lasting Ceramic Coating near tracy to gain an edge in the industry because we preserve, not detail.
+          Searching for a ceramic coating specialist whom you can trust in Tracy? Touch & Shine Auto detail is the number one <Link
+            href="/"
+            className="text-[#2A82AD] font-semibold"
+          >
+            mobile car detailing
+          </Link>{' '} service with more than ten years of on-the-job experience. Our expert areas are high quality ceramic coating and precision paint correction that shield your automobile and make it shine even after a few years. We offer both quality and lasting Ceramic Coating near tracy to gain an edge in the industry because we preserve, not detail.
 
         </div>
 
