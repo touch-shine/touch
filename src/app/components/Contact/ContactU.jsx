@@ -39,7 +39,7 @@ const ContactForm = () => {
 
 		reset();
 		await router.push('/greeting');
-		toast.success('Order submitted successfully!');
+		// toast.success('Order submitted successfully!');
 	};
 
 	return (
