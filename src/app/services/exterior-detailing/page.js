@@ -1,7 +1,7 @@
 import Faqs from '@/app/components/Faq/Faqs';
 import { Exterior } from '@/app/components/Faq/Homedata';
-
 import Image from "next/image";
+import Link from 'next/link';
 import React from "react";
 import { FaArrowRight, FaLongArrowAltRight } from "react-icons/fa";
 const sections = [
