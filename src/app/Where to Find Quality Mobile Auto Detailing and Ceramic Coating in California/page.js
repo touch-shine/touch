@@ -35,11 +35,11 @@ const defaultData = [
         paragraph: (
           <div>
             <p>
-              Once you get a taste of the gloss and shine associated with ceramic coating, you can never get the same back again. Other than glowing your surface, the 
+              Once you get a taste of the gloss and shine associated with ceramic coating, you can never get the same back again. Other than glowing your surface, the{" "} 
         <a
                 className="text-blue-600 font-bold"
-                href="https://www.touchandshinedetail.com/services/paint-correction"
-              >best Ceramic Coating in Tracy, CA provides a whole-year protection against UV rays, road salts, acid rains, and birds. The hydrophobicity maintains a longer clean cycle of your car and thereby less maintenance which results in less washing of your car.
+                href="https://www.touchandshinedetail.com/services/ceramic-coating"
+              >best Ceramic Coating in Tracy, </a> CA provides a whole-year protection against UV rays, road salts, acid rains, and birds. The hydrophobicity maintains a longer clean cycle of your car and thereby less maintenance which results in less washing of your car.
 The re-sale value is also going to be enhanced with the help of ceramic coating because it will maintain the paint and remove small damages. It is an excellent long-term fix, particularly to drivers who prefer such a looked-after appearance to last.
 Together with professional scratch and swirl removal, a ceramic coating seals the perfect finish. And when employed by qualified experts with modern high-tech instruments the outcomes are self- explaining.
 
@@ -54,12 +54,18 @@ Together with professional scratch and swirl removal, a ceramic coating seals th
     ],
   },
   {
-    heading: "Advanced Car Care Solution",
+    heading: "",
     sections: [
       {
-        subheading: "Long-Lasting Protection",
+        subheading: "Interior Detailing That Matches Exterior Perfection",
         paragraph:
-          "Unlike wax, which wears off fast, ceramic coating lasts. As a result, your car maintains its shine. It also stays protected from damage.",
+          "Attentively maintained interiors do not only appear well; they are also nicer to the touch. Companies such as{" "} <a
+                className="text-blue-600 font-bold"
+                href="https://www.touchandshinedetail.com/services/ceramic-coating"
+              >Interior mobile car detailing near Tracy </a> allow sanitization and revitalization of the cabin of your car without having to leave your drive.
+Intense vacuuming, shampooing of the carpets, treating of leather, shining the dashboard, and also cleaning of the headliners. To families, rideshare drivers or any other person who spends a lot of time at the wheel, interior detailing can give comfort, hygiene, and pride of ownership.
+Full-service detailing is more efficient and less costly to do as exterior work is often packaged with interior services. Trust detailing pros Tracy counts on to make all of your vehicle feel brand new.
+",
       },
     ],
   },
@@ -68,262 +74,24 @@ Together with professional scratch and swirl removal, a ceramic coating seals th
     heading: "",
     sections: [
       {
-        subheading: "Effortless Maintenance",
+        subheading: "Final Thoughts: Make the Right Choice for Your Vehicle",
         paragraph: (
           <div>
             <p>
-              With{" "}
-              <a
-                className="text-blue-500 font-bold"
-                href="https://www.touchandshinedetail.com/services/ceramic-coating"
-              >
-                ceramic coating
-              </a>
-              , dirt does not stick. Therefore, this means fewer washes. It
-              also means less scrubbing.
-            </p>
-          </div>
-        ),
-      },
-    ],
-  },
-  {
-    heading: "",
-    sections: [
-      {
-        subheading: "UV Ray Defense",
-        paragraph:
-          "The sun’s rays fade car paint. On the other hand, ceramic coating shields it. It keeps the color vibrant.",
+              To inhabitants of Tracy and surrounding areas, the Touch and Shine auto detail brings high-quality services to you. Whether it is mobile auto detailing near me or perfection in Ceramic Coating in Tracy, CA, their services will exceed your expectations about its quality and convenience.
+{" "} <a
+                className="text-blue-600 font-bold"
+                href="https://book.squareup.com/appointments/g74ppxgb2rbmal/location/LH1DBHXC19NYZ/services"
+              >Book now with Touch and Shine Auto Detail where your car gets detailed like it deserves.
+                  </a>
 
-        image: "",
-      },
-    ],
-  },
-  {
-    heading: "",
-    sections: [
-      {
-        subheading: "Weather Resistance",
-        paragraph:
-          "Rain and extreme temperatures harm cars. Besides, the ceramic coating provides a barrier. This protects against harsh weather",
-
-        image: "",
-      },
-    ],
-  },
-  {
-    heading: "",
-    sections: [
-      {
-        subheading: "Chemical Resistance",
-        paragraph: (
-          <div>
-            <p>
-              Road salts and bird droppings ruin the paint. Even though they are
-              harmful, the ceramic coating prevents damage
-            </p>
-            <p className="mt-2">
-              Waxing and polishing are tiring. With ceramic coating,{" "}
-              <strong>car care is easy</strong>. Ultimately, this formula lasts
-              longer. One use keeps your car shining. It also cuts the need for
-              touch-ups.
             </p>
           </div>
         ),
-
-        image: "",
       },
     ],
   },
-  {
-    heading: "",
-    sections: [
-      {
-        subheading: "Deep Gloss and Shine",
-        paragraph:
-          "It not only protects the paint but also enhances it. For example, the gloss adds a mirror-like effect. This makes your car look sleek. Ceramic coating gives any vehicle a showroom look.",
-
-        image: "",
-      },
-    ],
-  },
-  {
-    heading: "",
-    sections: [
-      {
-        subheading: "The Power of a Hydrophobic Surface",
-        paragraph:
-          "Imagine a car that repels water. Meanwhile, that’s what a hydrophobic surface does. Ceramic coating creates a slick barrier. It makes water roll off. Rain and spills won’t stain. Therefore, dirt won’t stick. Cleaning your car is easy. With a wipe or rinse, your car looks spotless.",
-
-        image: "",
-      },
-    ],
-  },
-  {
-    heading: "",
-    sections: [
-      {
-        subheading: "Protection from Scratches and Stains",
-        paragraph: (
-          <div>
-            <p>
-              Scratches damage your car’s appearance look. However, the ceramic
-              coating helps. It doesn’t make your car scratch-proof. But it
-              absorbs small abrasions. Bird droppings, tree sap, and bug
-              splatters are stubborn. Then, these stains eat at the paint,
-              leaving marks. But with a ceramic coating, they sit on the surface
-              and wipe away fast.
-            </p>
-            <p className="mt-2"></p>
-            <p className="mt-2"></p>
-            <p className="mt-2"></p>
-          </div>
-        ),
-      },
-    ],
-  },
-  {
-    heading: "",
-    sections: [
-      {
-        subheading: "Prevents Chemical and Environmental Damage",
-        paragraph: (
-          <div>
-            <p>
-              Your car faces pollution and acid rain. Because these corrode the
-              paint, they cause damage. The ceramic coating acts as a shield. It
-              prevents harmful elements from penetrating. Furthermore, it stops
-              oxidation. It keeps the paint intact. It also prevents costly
-              damage.
-            </p>
-            <p className="mt-2"></p>
-            <p className="mt-2"></p>
-            <p className="mt-2"></p>
-          </div>
-        ),
-      },
-    ],
-  },
-  {
-    heading: "",
-    sections: [
-      {
-        subheading: "Saves Time and Money on Maintenance",
-        paragraph: (
-          <div>
-            <p>
-              Car maintenance takes effort. Although waxing needs redoing often,
-              polishing requires skill. Ceramic coating is a smart investment.
-              Next, it cuts the need for detailing. This saves time and cash.
-              You’ll spend less on washes. You’ll enjoy your ride more.
-            </p>
-            <p className="mt-2"></p>
-            <p className="mt-2"></p>
-            <p className="mt-2"></p>
-          </div>
-        ),
-      },
-    ],
-  },
-  {
-    heading: "",
-    sections: [
-      {
-        subheading: "Enhances the Car’s Gloss and Aesthetic Appeal",
-        paragraph: (
-          <div>
-            <p>
-              Who doesn’t love a car that looks new? In fact, ceramic coating
-              enhances your car. It adds a glossy finish. It makes the paint
-              look richer. Unlike wax, which fades fast, this coating keeps its
-              shine. Besides, your car always looks polished. This applies even
-              after long trips.
-            </p>
-            <p className="mt-2">
-              Read Blog:
-              <a
-                className="text-blue-900 font-bold"
-                href="https://www.touchandshinedetail.com/benefits-of-interior-ceramic-coating"
-              >
-                {" "}
-                Benefits of Interior Ceramic Coating
-              </a>
-            </p>
-            <p className="mt-2"></p>
-            <p className="mt-2"></p>
-          </div>
-        ),
-      },
-    ],
-  },
-  {
-    heading: "Boosts Resale Value",
-    sections: [
-      {
-        subheading: "",
-        paragraph: (
-          <div>
-            <p>
-              If you sell your car later, ceramic coating is a great choice. On
-              the other hand, a well-kept car with clean paint attracts buyers
-              and sells at a better price. A car with protected paint shows less
-              wear. This makes it more appealing. Ultimately, with ceramic
-              coating, you enjoy a stunning ride. But you also get a better
-              return
-            </p>
-            <p className="mt-2"></p>
-            <p className="mt-2"></p>
-            <p className="mt-2"></p>
-          </div>
-        ),
-      },
-    ],
-  },
-  {
-    heading: "Eco-Friendly Solution for Car Owners",
-    sections: [
-      {
-        subheading: "",
-        paragraph: (
-          <div>
-            <p>
-              Washing cars wastes water. For example, with ceramic coating, your
-              car stays clean longer. This cuts the need for frequent washing.
-              Since dirt doesn’t stick, a rinse is enough. Therefore, this saves
-              water. It also reduces your carbon footprint. This makes it a
-              smart choice.
-            </p>
-            <p className="mt-2"></p>
-            <p className="mt-2"></p>
-            <p className="mt-2"></p>
-          </div>
-        ),
-      },
-    ],
-  },
-  {
-    heading: "Protect and Shine with Ceramic Coating",
-    sections: [
-      {
-        subheading: "",
-        paragraph: (
-          <div>
-            <p>
-              Your vehicle merits the finest. Provide enduring protection and
-              unmatched luster with ceramic coating. Bid farewell to regular
-              waxing and frequent cleanings. Take delight in a smooth, shiny
-              surface that endures over time. Protect your paint from grime,
-              sunlight, and severe weather conditions.
-            </p>
-            <p className="mt-2"></p>
-            <p className="mt-2"></p>
-            <p className="mt-2"></p>
-          </div>
-        ),
-      },
-    ],
-  },
-];
+          
 // const faqsData = [
 //   {
 //     question: "What Causes Swirl Marks on Cars?",
@@ -360,7 +128,7 @@ const Blog1 = ({ data = defaultData, title, date, author, time, comments }) => {
         <div className="relative z-10 p-10 w-full text-center">
           <h1 className="text-white mt-32 text-3xl md:text-5xl font-bold">
             {title ||
-              "How Ceramic Coating Keeps Your Car’s Paint Looking Fresh and New"}
+              "Where to Find Quality Mobile Auto Detailing and Ceramic Coating in California"}
           </h1>
 
           <div className="flex flex-wrap gap-2 justify-center text-white mt-3 text-md font-semibold">
