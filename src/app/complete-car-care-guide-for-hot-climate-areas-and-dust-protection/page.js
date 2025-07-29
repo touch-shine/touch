@@ -45,24 +45,7 @@ To have easy safeguarding and reparation, search the option of
                 href="https://www.touchandshinedetail.com/services/exterior-detailing"
               >
                 Mobile Exterior Detailing near me.
-              </a> These services mean that the professional gear is delivered to your door, and there is no time wasted, as well as your vehicle is taken care of. Here are few of the most common car issues in this regard:
-            </p>
-        paragraph: (
-          <div>
-            <p></p>
-          </div>
-        ),
-        listItems: [
-          "Swirl marks and scratches are commonly formed due to inappropriate cleaning, or abrasive dust.",
-          "Cloudy paint finish is caused by oxidized layers of paint or by automatic car wash residues.",
-          "UV rays and hot temperatures may destroy dashboard plastics, as well as jumpstart temperature-sensitive engine parts.",
-        ],
-        paragraph: (
-          <div>
-            <p>
-          All these issues can be solved by professional detailers by deep cleaning, correction, and protection of any vehicles. Find out the most appropriate solutions to use to eliminate some damages to your car by asking your provider about the best car scratch removers.
-        </p>
-          </div>
+              </a> These services mean that the professional gear is delivered to your door, and there is no time wasted, as well as your vehicle is taken care of. Here are few of the most common car issues in this regard that we treat with complete peace of mind like Swirl marks and scratches that are commonly formed due to inappropriate cleaning, or abrasive dust. We also treat Cloudy paint finish that is caused by oxidized layers of paint or by automatic car wash residues. Sometimes UV rays and hot temperatures may destroy dashboard plastics, as well as jumpstart temperature-sensitive engine parts.
         ),
             <p className="mt-2"></p>
             <p className="mt-2"></p>
