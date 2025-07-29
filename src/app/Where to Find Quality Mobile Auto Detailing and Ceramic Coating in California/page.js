@@ -18,7 +18,6 @@ const defaultData = [
           <div>
             <p>
               The current convenient auto mobile service makes life convenient since you will not need to drive to a shop and wait there. Be it in your driveway or in the workplace, detailers come in with powerful mobile auto detailing equipment offering the same degree of care as the care you would give at a full-service garage. An exemplary carwash usually consists of a comprehensive exterior car wash, elimination of scratch and swirl removal, waxing and interior detailing. Other additional features are also popular such as engine bay clean, odor removal, and leather treatment. The most important things that differentiate the best providers are the details, flexibility and the desire to please customers.
-
             </p>
             <p className="mt-2"></p>
           </div>
@@ -36,13 +35,14 @@ const defaultData = [
           <div>
             <p>
               Once you get a taste of the gloss and shine associated with ceramic coating, you can never get the same back again. Other than glowing your surface, the{" "} 
-        <a
+              <a
                 className="text-blue-600 font-bold"
                 href="https://www.touchandshinedetail.com/services/ceramic-coating"
-              >best Ceramic Coating in Tracy,  CA </a>provides a whole-year protection against UV rays, road salts, acid rains, and birds. The hydrophobicity maintains a longer clean cycle of your car and thereby less maintenance which results in less washing of your car.
-The re-sale value is also going to be enhanced with the help of ceramic coating because it will maintain the paint and remove small damages. It is an excellent long-term fix, particularly to drivers who prefer such a looked-after appearance to last.
-Together with professional scratch and swirl removal, a ceramic coating seals the perfect finish. And when employed by qualified experts with modern high-tech instruments the outcomes are self- explaining.
-
+              >
+                best Ceramic Coating in Tracy, CA
+              </a> provides a whole-year protection against UV rays, road salts, acid rains, and birds. The hydrophobicity maintains a longer clean cycle of your car and thereby less maintenance which results in less washing of your car.
+              The re-sale value is also going to be enhanced with the help of ceramic coating because it will maintain the paint and remove small damages. It is an excellent long-term fix, particularly to drivers who prefer such a looked-after appearance to last.
+              Together with professional scratch and swirl removal, a ceramic coating seals the perfect finish. And when employed by qualified experts with modern high-tech instruments the outcomes are self-explaining.
             </p>
             <p className="mt-2"></p>
             <p className="mt-2"></p>
@@ -59,21 +59,23 @@ Together with professional scratch and swirl removal, a ceramic coating seals th
       {
         subheading: "Interior Detailing That Matches Exterior Perfection",
         paragraph: (
-         <div>
-          <p>
-          Attentively maintained interiors do not only appear well; they are also nicer to the touch. Companies such as{" "} <a
-    className="text-blue-600 font-bold"
-    href="https://www.touchandshinedetail.com/services/ceramic-coating"
-  >Interior mobile car detailing near Tracy </a>{" "} allow sanitization and revitalization of the cabin of your car without having to leave your drive.
-Intense vacuuming, shampooing of the carpets, treating of leather, shining the dashboard, and also cleaning of the headliners. To families, rideshare drivers or any other person who spends a lot of time at the wheel, interior detailing can give comfort, hygiene, and pride of ownership.
-Full-service detailing is more efficient and less costly to do as exterior work is often packaged with interior services. Trust detailing pros Tracy counts on to make all of your vehicle feel brand new.
-  </p>
-  </div>
-  ),
+          <div>
+            <p>
+              Attentively maintained interiors do not only appear well; they are also nicer to the touch. Companies such as{" "}
+              <a
+                className="text-blue-600 font-bold"
+                href="https://www.touchandshinedetail.com/services/ceramic-coating"
+              >
+                Interior mobile car detailing near Tracy
+              </a>{" "}
+              allow sanitization and revitalization of the cabin of your car without having to leave your drive. Intense vacuuming, shampooing of the carpets, treating of leather, shining the dashboard, and also cleaning of the headliners. To families, rideshare drivers or any other person who spends a lot of time at the wheel, interior detailing can give comfort, hygiene, and pride of ownership.
+              Full-service detailing is more efficient and less costly to do as exterior work is often packaged with interior services. Trust detailing pros Tracy counts on to make all of your vehicle feel brand new.
+            </p>
+          </div>
+        ),
       },
     ],
   },
-  ,
   {
     heading: "",
     sections: [
@@ -82,16 +84,15 @@ Full-service detailing is more efficient and less costly to do as exterior work 
         paragraph: (
           <div>
             <p>
-              To inhabitants of Tracy and surrounding areas, the Touch and Shine auto detail brings high-quality services to you. Whether it is mobile auto detailing near me or perfection in Ceramic Coating in Tracy, CA, their services will exceed your expectations about its quality and convenience.
-Book now with Touch and Shine Auto Detail where your car gets detailed like it deserves.
-
+              To inhabitants of Tracy and surrounding areas, the Touch and Shine auto detail brings high-quality services to you. Whether it is mobile auto detailing near me or perfection in Ceramic Coating in Tracy, CA, their services will exceed your expectations about its quality and convenience. Book now with Touch and Shine Auto Detail where your car gets detailed like it deserves.
             </p>
           </div>
         ),
       },
     ],
   },
-          
+];
+
 const faqsData = [
   {
     question: "What's the difference between interior mobile car detailing and regular car cleaning?",
@@ -119,6 +120,7 @@ const faqsData = [
       "Ceramic coatings can last 2–5 years. With Touch and Shine Auto Detail, you receive high-grade materials and expert application, ensuring long-term benefits and great value.",
   },
 ];
+
 const Blog1 = ({ data = defaultData, title, date, author, time, comments }) => {
   return (
     <>
@@ -132,14 +134,8 @@ const Blog1 = ({ data = defaultData, title, date, author, time, comments }) => {
           </h1>
 
           <div className="flex flex-wrap gap-2 justify-center text-white mt-3 text-md font-semibold">
-            <InfoItem
-              icon={<FaUserCircle />}
-              text={author || "gabriel.maestro"}
-            />
-            <InfoItem
-              icon={<FaCalendarAlt />}
-              text={date || "January 14, 2024"}
-            />
+            <InfoItem icon={<FaUserCircle />} text={author || "gabriel.maestro"} />
+            <InfoItem icon={<FaCalendarAlt />} text={date || "January 14, 2024"} />
             <InfoItem icon={<FaClock />} text={time || "11:19 pm"} />
             <InfoItem icon={<FaComment />} text={comments || "No Comments"} />
           </div>
@@ -159,20 +155,13 @@ const Blog1 = ({ data = defaultData, title, date, author, time, comments }) => {
         <div className="mt-6 text-lg text-black">
           <p>
             In California, do you want {" "}
-              <a
-                className="text-blue-600 font-bold"
-                href="https://www.touchandshinedetail.com/"
-              >
-              mobile auto detailing near me?</a> It is not just you. In the pursuit of convenience and high level of care, the detailing professionals Tracy can now bring supreme level of services and treatments to you, without even getting out of your door. Mobile detailing helps here because whether in the city or in neighboring cities, your car will receive professional care as mobile detailing professionals will be at your service without you having to disrupt your busy schedules in order to take your car to the workshop.
-As an increasing number of people use auto spa services instead of the common car wash, the need for high-quality detailing services on the spot has been over the roof. Basic cleaning days are long gone as today we have a range of services including paint correction, and full interior restoration. However what are the tips to selecting the correct local auto detailers? And why is ceramic coating a buzz in the California market? That is what we are going to discuss in today's write up.
-
+            <a
+              className="text-blue-600 font-bold"
+              href="https://www.touchandshinedetail.com/"
+            >
+              mobile auto detailing near me?
+            </a> It is not just you. In the pursuit of convenience and high level of care, the detailing professionals Tracy can now bring supreme level of services and treatments to you, without even getting out of your door. Mobile detailing helps here because whether in the city or in neighboring cities, your car will receive professional care as mobile detailing professionals will be at your service without you having to disrupt your busy schedules in order to take your car to the workshop. As an increasing number of people use auto spa services instead of the common car wash, the need for high-quality detailing services on the spot has been over the roof. Basic cleaning days are long gone as today we have a range of services including paint correction, and full interior restoration. However what are the tips to selecting the correct local auto detailers? And why is ceramic coating a buzz in the California market? That is what we are going to discuss in today's write up.
           </p>
-          <h2 className="mt-6 text-lg text-blue-600"></h2>
-          <p className="mt-6"></p>
-          <p className="mt-6"></p>
-          <p className="mt-6"></p>
-          <p className="mt-6"></p>
-          <p className="mt-6"></p>
         </div>
 
         {data.map((item, index) => (
@@ -188,9 +177,7 @@ As an increasing number of people use auto spa services instead of the common ca
                 )}
 
                 {section.paragraph && (
-                  <div className="text-md text-black mt-2">
-                    {section.paragraph}
-                  </div>
+                  <div className="text-md text-black mt-2">{section.paragraph}</div>
                 )}
 
                 {section.image && (
@@ -224,19 +211,6 @@ As an increasing number of people use auto spa services instead of the common ca
             </button>
           </Link>
         </div>
-
-        {/* FAQs Section */}
-        {/* <div className="mt-8">
-          <h2 className="text-2xl font-bold text-white">FAQs</h2>
-          {faqsData.map((faq, index) => (
-            <div key={index} className="mt-4">
-              <h3 className="text-xl font-semibold text-yellow-600">
-                {faq.question}
-              </h3>
-              <p className="text-md text-white mt-2">{faq.answer}</p>
-            </div>
-          ))}
-        </div> */}
       </div>
     </>
   );
@@ -251,4 +225,3 @@ const InfoItem = ({ icon, text }) => (
 );
 
 export default Blog1;
-
