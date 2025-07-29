@@ -135,8 +135,8 @@ const Blog1 = ({ data = defaultData, title, date, author, time, comments }) => {
 
           <div className="flex flex-wrap gap-2 justify-center text-white mt-3 text-md font-semibold">
             <InfoItem icon={<FaUserCircle />} text={author || "gabriel.maestro"} />
-            <InfoItem icon={<FaCalendarAlt />} text={date || "January 14, 2024"} />
-            <InfoItem icon={<FaClock />} text={time || "11:19 pm"} />
+            <InfoItem icon={<FaCalendarAlt />} text={date || "July 29, 2025"} />
+            <InfoItem icon={<FaClock />} text={time || "10:29 pm"} />
             <InfoItem icon={<FaComment />} text={comments || "No Comments"} />
           </div>
         </div>
