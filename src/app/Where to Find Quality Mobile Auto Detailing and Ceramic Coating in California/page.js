@@ -79,11 +79,7 @@ Full-service detailing is more efficient and less costly to do as exterior work 
           <div>
             <p>
               To inhabitants of Tracy and surrounding areas, the Touch and Shine auto detail brings high-quality services to you. Whether it is mobile auto detailing near me or perfection in Ceramic Coating in Tracy, CA, their services will exceed your expectations about its quality and convenience.
-{" "} <a
-                className="text-blue-600 font-bold"
-                href="https://book.squareup.com/appointments/g74ppxgb2rbmal/location/LH1DBHXC19NYZ/services"
-              >Book now with Touch and Shine Auto Detail where your car gets detailed like it deserves.
-                  </a>
+Book now with Touch and Shine Auto Detail where your car gets detailed like it deserves.
 
             </p>
           </div>
@@ -92,33 +88,33 @@ Full-service detailing is more efficient and less costly to do as exterior work 
     ],
   },
           
-// const faqsData = [
-//   {
-//     question: "What Causes Swirl Marks on Cars?",
-//     answer:
-//       "Swirls are generally due to flawed washing and drying techniques. Abrasive substances, inclusive of difficult sponges or towels, and automated car washes with grimy brushes also contribute to these marks. Additionally, washing the auto in direct daylight or the usage of low-excellent products can exacerbate the trouble.",
-//   },
-//   {
-//     question: "How to Remove Swirl Marks from Car",
-//     answer:
-//       "To dispose of stains, use a mark remover or a sharpening compound. Apply the product with a clean microfiber fabric or polisher, working in small sections. For severe scratches, remember a clay bar remedy or expert detailing to restore your vehicle’s end efficaciously.",
-//   },
-//   {
-//     question: "Is It Possible to Avoid Swirl Marks?",
-//     answer:
-//       "Yes, minimizing stains is feasible with proper care. Use notable washing products, smooth equipment, and tender clothes. Avoid washing in direct daylight and choose hand washing as opposed to automatic car washes. Regular preservation and cautious washing techniques assist prevent stains",
-//   },
-//   {
-//     question: "Can I Remove Swirl Marks by Hand?",
-//     answer:
-//       "Yes, removing swirls by using a hand is possible with a mark remover and a microfiber fabric. This approach requires greater effort and endurance as compared to machine polishing. Apply the remover in small sections, lightly work it into the paint, and buff the location until clean.",
-//   },
-//   {
-//     question: "How to Buff Without Swirl Marks?",
-//     answer:
-//       "To buff without growing marks, use a smooth, tender microfiber cloth or a buffing pad. Apply light, and even pressure, and use an again-and-forth or side-to-side motion instead of circular moves. Ensure the floor is clean and avoid excessive stress to save you new blemishes.",
-//   },
-// ];
+const faqsData = [
+  {
+    question: "What's the difference between interior mobile car detailing and regular car cleaning?",
+    answer:
+      "Best Interior mobile car detailing near me includes deep cleaning, shampooing, steam cleaning, and UV protection, whereas regular cleaning often just involves a basic vacuum and wipe-down.",
+  },
+  {
+    question: "Is auto detailing worth it?",
+    answer:
+      "Absolutely. With detailing professionals Tracy using premium products, you get long-lasting protection, enhanced aesthetics, and higher resale value—making it a worthy investment.",
+  },
+  {
+    question: "What services are included in mobile auto detailing near me?",
+    answer:
+      "Mobile auto detailing near me typically includes washing, waxing, interior shampooing, scratch and swirl removal, and optional ceramic coating.",
+  },
+  {
+    question: "How much does mobile auto detailing cost in the Tracy, CA area?",
+    answer:
+      "Pricing varies depending on the package, but local auto detailers in Tracy offer services ranging from $80 to $300+ based on vehicle size and detailing depth.",
+  },
+  {
+    question: "How long does ceramic coating last and is Touch and Shine Auto Detail worth the investment?",
+    answer:
+      "Ceramic coatings can last 2–5 years. With Touch and Shine Auto Detail, you receive high-grade materials and expert application, ensuring long-term benefits and great value.",
+  },
+];
 const Blog1 = ({ data = defaultData, title, date, author, time, comments }) => {
   return (
     <>
@@ -150,21 +146,22 @@ const Blog1 = ({ data = defaultData, title, date, author, time, comments }) => {
       <div className="p-10 bg-white text-black">
         <div className="border-4 border-[#2A82AD] p-2 inline-block">
           <img
-            src="/images/ceramic-coating-keeps-your-cars.jpg"
-            alt="Christmas"
+            src="public/images/Where to Find Quality Mobile Auto Detailing and Ceramic Coating in California (2).webp"
+            alt="Where to Find Quality Mobile Auto Detailing and Ceramic Coating in California"
             className="w-full h-auto"
           />
         </div>
 
         <div className="mt-6 text-lg text-black">
           <p>
-            Ever wished your car could keep that fresh-off-the-lot shine? Well,
-            there’s good news! Ceramic coating makes that dream real. This
-            shield protects your car's paint. It gives an appearance like new.
-            Ceramic coating bonds to the paint. It forms a tough, invisible
-            layer. This keeps dirt, water, and sun rays away. Therefore, the
-            result is a stunning shine. It also provides a shield that makes
-            heads turn.
+            In California, do you want {" "}
+              <a
+                className="text-blue-600 font-bold"
+                href="https://www.touchandshinedetail.com/"
+              >
+              mobile auto detailing near me?</a> It is not just you. In the pursuit of convenience and high level of care, the detailing professionals Tracy can now bring supreme level of services and treatments to you, without even getting out of your door. Mobile detailing helps here because whether in the city or in neighboring cities, your car will receive professional care as mobile detailing professionals will be at your service without you having to disrupt your busy schedules in order to take your car to the workshop.
+As an increasing number of people use auto spa services instead of the common car wash, the need for high-quality detailing services on the spot has been over the roof. Basic cleaning days are long gone as today we have a range of services including paint correction, and full interior restoration. However what are the tips to selecting the correct local auto detailers? And why is ceramic coating a buzz in the California market? That is what we are going to discuss in today's write up.
+
           </p>
           <h2 className="mt-6 text-lg text-blue-600"></h2>
           <p className="mt-6"></p>
@@ -224,17 +221,6 @@ const Blog1 = ({ data = defaultData, title, date, author, time, comments }) => {
           </Link>
         </div>
 
-        <div className="mt-8">
-          <h2 className="text-2xl font-bold text-black">Conclusion</h2>
-          <p className="text-md text-black mt-2">
-            If you want the best protection for your car, let yourself know.
-            Ceramic coating is the ideal choice. Since it offers protection, it
-            reduces upkeep. It also maintains the freshness of your car. Bid
-            farewell to waxing. Experience a durable luster. Put your money into
-            ceramic coating today. Savor a breathtaking journey!
-          </p>
-          <p className="text-md text-black mt-2"></p>
-        </div>
         {/* FAQs Section */}
         {/* <div className="mt-8">
           <h2 className="text-2xl font-bold text-white">FAQs</h2>
