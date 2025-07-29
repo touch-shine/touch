@@ -146,7 +146,7 @@ const Blog1 = ({ data = defaultData, title, date, author, time, comments }) => {
       <div className="p-10 bg-white text-black">
         <div className="border-4 border-[#2A82AD] p-2 inline-block">
           <img
-            src="public/images/Where-to-Find-Quality-Mobile-Auto-Detailing-and-Ceramic-Coating-in-California.webp"
+            src="/images/Where-to-Find-Quality-Mobile-Auto-Detailing-and-Ceramic-Coating-in-California.png"
             alt="Where to Find Quality Mobile Auto Detailing and Ceramic Coating in California"
             className="w-full h-auto"
           />
