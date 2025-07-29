@@ -7,11 +7,21 @@ import Link from "next/link";
 const blogPosts = [
   {
     title:
+      "Complete Car Care with Paint Correction Services in Tracy, CA",
+    image: "/images/complete-car-care-guide-for-hot-climate-areas-and-dust-protection.png",
+    description:
+      "Protect your car from heat and dust with Paint Correction Services in Tracy, CA. Trust Touch and Shine Auto Detail for expert car care solutions.",
+    category: "July 29, 2025  ",
+    readTime: "",
+    link: "/complete-car-care-guide-for-hot-climate-areas-and-dust-protection",
+  },
+  {
+    title:
       "Find Quality Mobile Auto Detailing Near Me",
     image: "/images/Where-to-Find-Quality-Mobile-Auto-Detailing-and-Ceramic-Coating-in-California.png",
     description:
       "Looking for mobile auto detailing near me? Touch and Shine Auto Detail offers premium services in Tracy, CA including ceramic coating and more.",
-    category: "Feb 2, 2025  ",
+    category: "July 29, 2025  ",
     readTime: "",
     link: "/where-to-find-quality-mobile-auto-detailing-and-ceramic-coating-in-california",
   },
