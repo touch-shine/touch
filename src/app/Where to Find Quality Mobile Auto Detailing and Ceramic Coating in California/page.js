@@ -58,7 +58,9 @@ Together with professional scratch and swirl removal, a ceramic coating seals th
     sections: [
       {
         subheading: "Interior Detailing That Matches Exterior Perfection",
-        <p>
+        paragraph: (
+         <div>
+          <p>
           Attentively maintained interiors do not only appear well; they are also nicer to the touch. Companies such as{" "} <a
     className="text-blue-600 font-bold"
     href="https://www.touchandshinedetail.com/services/ceramic-coating"
@@ -66,6 +68,8 @@ Together with professional scratch and swirl removal, a ceramic coating seals th
 Intense vacuuming, shampooing of the carpets, treating of leather, shining the dashboard, and also cleaning of the headliners. To families, rideshare drivers or any other person who spends a lot of time at the wheel, interior detailing can give comfort, hygiene, and pride of ownership.
 Full-service detailing is more efficient and less costly to do as exterior work is often packaged with interior services. Trust detailing pros Tracy counts on to make all of your vehicle feel brand new.
   </p>
+  </div>
+  ),
       },
     ],
   },
