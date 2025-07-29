@@ -7,6 +7,16 @@ import Link from "next/link";
 const blogPosts = [
   {
     title:
+      "Find Quality Mobile Auto Detailing Near Me",
+    image: "/images/car-care-routine.jpg",
+    description:
+      "Looking for mobile auto detailing near me? Touch and Shine Auto Detail offers premium services in Tracy, CA including ceramic coating and more.",
+    category: "Feb 2, 2025  ",
+    readTime: "",
+    link: "/where-to-find-quality-mobile-auto-detailing-and-ceramic-coating-in-california",
+  },
+  {
+    title:
       "Why Exterior Detailing Should Be Part of Your Regular Car Care Routine",
     image: "/images/car-care-routine.jpg",
     description:
