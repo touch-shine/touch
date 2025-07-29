@@ -39,7 +39,7 @@ const defaultData = [
         <a
                 className="text-blue-600 font-bold"
                 href="https://www.touchandshinedetail.com/services/ceramic-coating"
-              >best Ceramic Coating in Tracy, </a> CA provides a whole-year protection against UV rays, road salts, acid rains, and birds. The hydrophobicity maintains a longer clean cycle of your car and thereby less maintenance which results in less washing of your car.
+              >best Ceramic Coating in Tracy,  CA </a>provides a whole-year protection against UV rays, road salts, acid rains, and birds. The hydrophobicity maintains a longer clean cycle of your car and thereby less maintenance which results in less washing of your car.
 The re-sale value is also going to be enhanced with the help of ceramic coating because it will maintain the paint and remove small damages. It is an excellent long-term fix, particularly to drivers who prefer such a looked-after appearance to last.
 Together with professional scratch and swirl removal, a ceramic coating seals the perfect finish. And when employed by qualified experts with modern high-tech instruments the outcomes are self- explaining.
 
