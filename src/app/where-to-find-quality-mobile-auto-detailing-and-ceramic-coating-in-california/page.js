@@ -47,7 +47,7 @@ const defaultData = [
             <p className="mt-2"></p>
             <p className="mt-2"></p>
             <p className="mt-2"></p>
-            <p className="mt-2">.</p>
+            <p className="mt-2"></p>
           </div>
         ),
       },
