@@ -23,37 +23,10 @@ export const metadata = {
   title: " Trusted Auto Detailing Services in Tracy, CA | Touch & Shine Auto Detail",
   description: " Looking for expert auto detailing near Tracy, CA? Touch & Shine Auto Detail delivers premium paint correction, ceramic coating, and mobile detailing with care and precision.",
   verification: {
-    google: "CdZ_IxgmhATd8HZmACAvCcX14xnexgUEb-R-9OcAUww",
+    google: "_2S4KOgWnMYU2mSApK9bODlggIt3lwJd3vOiY6mnCwM",
   },
 };
-// google search console code added 
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
 
-      <head>
-{/* Google Tag Manager */}
-<script
-  dangerouslySetInnerHTML={{
-    __html: `
-      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-M9Q2NNKJ');
-    `,
-  }}
-/>
-{/* End Google Tag Manager */}
-
-        {/* You can also explicitly add it like this */}
-        {/* <meta
-          name="google-site-verification"
-          content="xB_gZdp_X1KAfIzfUdw94d3i9SSObcpS4CFHgr_b2eo"
-        /> */}
-
-        <meta name="google-site-verification" content="CdZ_IxgmhATd8HZmACAvCcX14xnexgUEb-R-9OcAUww" />
-      </head>
       <Head>
         <script type="application/ld+json" dangerouslySetInnerHTML={{
           __html: JSON.stringify({
