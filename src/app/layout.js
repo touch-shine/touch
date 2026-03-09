@@ -85,6 +85,7 @@ export const metadata = {
             }
           })
         }} />
+        <meta name="google-site-verification" content="_2S4KOgWnMYU2mSApK9bODlggIt3lwJd3vOiY6mnCwM" />
       </Head>
 
       <body
